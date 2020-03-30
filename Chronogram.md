@@ -19,7 +19,7 @@ The main problems we detected are:
 
 - A chatbot with these recommendations 
 
-- IoT devices to monitor risk in patients 
+- IoT devices to monitor risky patients (focusing on high blood pressure and diabetes)
 
 - An open source ventilator to keep ahead of the curve
 
