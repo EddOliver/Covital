@@ -21,4 +21,4 @@ After brainstorming our tentative solution is:
 
 
 
-For the next week we will work on developing an information aggregator, 
+For the next week we will work on developing an information aggregator,a tenative chatbot and wee will keep working on a form to poll people about possible solutions
