@@ -33,6 +33,8 @@
 - It will include a better map UI, NOT only with cases and deaths, but better valuable information. 
 - We will see a map with hospitals and the designaed hospitals that are treatting COVID19 as per the information of the Mexican government: https://www.youtube.com/watch?v=rrcjcdwy_xY
 
+- Perhaps this is the most important message from the Health Secretary: https://www.youtube.com/watch?v=pORVh2QAYTU
+
 - With these we will aim to help the public in locating which hospital can receive you in case that you develop symptoms.
 - Three tabs including information
 
