@@ -15,10 +15,19 @@ The main problems we detected are:
 
 After brainstorming our tentative solution is:
 
+- A graphical-first information Aggregator that people will WANT to consult almost on a daily basis, that will include all the recommeendations from the institutions worldwide and the mexican government.
+
+- A chatbot with tttheese recommendations 
+
+- IoT devices to monitor risk in patients 
+
+- An opeen source ventilator to keep ahead of the curve
 
 
 
 
 
 
-For the next week we will work on developing an information aggregator, a tenative chatbot and wee will keep working on a form to poll people about possible solutions
+For the next week we will work on developing an information aggregator, a tenative chatbot and wee will keep working on a form to poll people about possible solutions.
+
+At this moment we are a 848 and 16 deahs so taking into consideeraion the deveelopment in other similar countries such as spain, we are in the best momentt to start acting.
