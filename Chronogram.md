@@ -1,9 +1,13 @@
 ## March 25
 
+### State of SARS-COV-2, COVID19 in Mexico:
+
+
+
 
 ## March 29
 
-The main problems we detected are: 
+### The main problems we detected are: 
 
 - Information is spread accross several platforms, most of it is useless.
 - People still don't know the basic information regarding taking care of themselves, protective equipment etc...
@@ -21,14 +25,15 @@ The main problems we detected are:
 
 - IoT devices to monitor risky patients (focusing on high blood pressure and diabetes)
 
-- An open source ventilator to keep ahead of the curve
+- An open source ventilator/respirator to keep ahead of the curve
 
 
-### For the next week we will work on developing an information aggregator, a tenative chatbot and wee will keep working on a form to poll people about possible solutions.
+### For the next week we will work on developing an information aggregator, a tenative chatbot and we will keep working on a form to poll people about possible solutions.
 
 - It will include a better map UI, NOT only with cases and deaths, but better valuable information. 
-- We will see a map with hospitals and the designaed hospitals that are treatting COVID19 as per the information of the Meexican government: https://www.youtube.com/watch?v=rrcjcdwy_xY
+- We will see a map with hospitals and the designaed hospitals that are treatting COVID19 as per the information of the Mexican government: https://www.youtube.com/watch?v=rrcjcdwy_xY
 
-- With these we will aim to help the public in locating which hospial can receive you in case thatt you develop some symptoms.
+- With these we will aim to help the public in locating which hospital can receive you in case that you develop symptoms.
+- Three tabs including information
 
-At this moment we are a 848 and 16 deahs so taking into consideraion the development in other similar countries such as spain, we are in the best momentt to start acting.
+At this moment we are a 848 and 16 deahs so taking into consideration the development in other similar countries such as Spain, we are in the best moment to start acting.
