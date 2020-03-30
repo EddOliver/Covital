@@ -13,7 +13,7 @@ The main problems we detected are:
 - Basic reagents such as alcohol and protective equipment such as facemasks are out of stock, and other type of useless reagents such as isopropylic alcohol are being sold at high prices.
 - Several patients are automedicating with Cloroquin, even overdosing and there are some patients in trouble because of this automedication.
 
-After brainstorming our tentative solution is:
+### After brainstorming our tentative solution is:
 
 - A graphical-first information Aggregator that people will WANT to consult almost on a daily basis, that will include all the recommeendations from the institutions worldwide and the mexican government.
 
@@ -24,7 +24,7 @@ After brainstorming our tentative solution is:
 - An open source ventilator to keep ahead of the curve
 
 
-For the next week we will work on developing an information aggregator, a tenative chatbot and wee will keep working on a form to poll people about possible solutions.
+### For the next week we will work on developing an information aggregator, a tenative chatbot and wee will keep working on a form to poll people about possible solutions.
 
 - It will include a better map UI, NOT only with cases and deaths, but better valuable information. 
 - We will see a map with hospitals and the designaed hospitals that are treatting COVID19 as per the information of the Meexican government: https://www.youtube.com/watch?v=rrcjcdwy_xY
