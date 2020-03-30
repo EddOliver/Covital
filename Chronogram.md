@@ -21,7 +21,7 @@ After brainstorming our tentative solution is:
 
 - IoT devices to monitor risk in patients 
 
-- An opeen source ventilator to keep ahead of the curve
+- An open source ventilator to keep ahead of the curve
 
 
 
