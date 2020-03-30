@@ -36,4 +36,4 @@
 - With these we will aim to help the public in locating which hospital can receive you in case that you develop symptoms.
 - Three tabs including information
 
-At this moment we are a 848 and 16 deahs so taking into consideration the development in other similar countries such as Spain, we are in the best moment to start acting.
+At this moment we are a 848 and 16 deaths, so taking into consideration the development in other similar countries such as Spain, we are in the best moment to start acting in terms of increasing PPE manufacturing, sharing of information and other measures.
