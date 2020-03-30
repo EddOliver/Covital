@@ -29,6 +29,6 @@ For the next week we will work on developing an information aggregator, a tenati
 - It will include a better map UI, NOT only with cases and deaths, but better valuable information. 
 - We will see a map with hospitals and the designaed hospitals that are treatting COVID19 as per the information of the Meexican government: https://www.youtube.com/watch?v=rrcjcdwy_xY
 
-- With these we will aim to help the public in locating which hospial can reeceive you in case thatt you develop some symptoms.
+- With these we will aim to help the public in locating which hospial can receive you in case thatt you develop some symptoms.
 
-At this moment we are a 848 and 16 deahs so taking into consideraion the deveelopment in other similar countries such as spain, we are in the best momentt to start acting.
+At this moment we are a 848 and 16 deahs so taking into consideraion the development in other similar countries such as spain, we are in the best momentt to start acting.
