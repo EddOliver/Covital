@@ -17,17 +17,18 @@ After brainstorming our tentative solution is:
 
 - A graphical-first information Aggregator that people will WANT to consult almost on a daily basis, that will include all the recommeendations from the institutions worldwide and the mexican government.
 
-- A chatbot with tttheese recommendations 
+- A chatbot with these recommendations 
 
 - IoT devices to monitor risk in patients 
 
 - An open source ventilator to keep ahead of the curve
 
 
-
-
-
-
 For the next week we will work on developing an information aggregator, a tenative chatbot and wee will keep working on a form to poll people about possible solutions.
 
-At this moment we are a 848 and 16 deahs so taking into consideeraion the deveelopment in other similar countries such as spain, we are in the best momentt to start acting.
+- It will include a better map UI, NOT only with cases and deaths, but better valuable information. 
+- We will see a map with hospitals and the designaed hospitals that are treatting COVID19 as per the information of the Meexican government: https://www.youtube.com/watch?v=rrcjcdwy_xY
+
+- With these we will aim to help the public in locating which hospial can reeceive you in case thatt you develop some symptoms.
+
+At this moment we are a 848 and 16 deahs so taking into consideraion the deveelopment in other similar countries such as spain, we are in the best momentt to start acting.
