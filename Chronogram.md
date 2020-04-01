@@ -25,6 +25,8 @@
 
 - IoT devices to monitor risky patients (focusing on high blood pressure and diabetes)
 
+- An open source Ventilator to keep ahead of the curve.
+
 
 ### For the next week we will work on developing an information aggregator, a tenative chatbot and we will keep working on a form to poll people about possible solutions.
 
