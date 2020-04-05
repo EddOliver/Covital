@@ -46,6 +46,6 @@ Adding to the problems, one that came into our attention was the incredible amou
 
 With that we will then "cure" the proper information into a feed on the platform and add a section indicating all that fake information so the user may be able to discern into them. 
 
-That said we will start creating a prescence in social networks focusing firstly on Reddit and Twitter.
+That said we will start creating a prescence in social networks focusing firstly on Reddit and Twitter. And we created a google form that we will begin spreading to know about the level of information the average Mexican has. 
 
 
