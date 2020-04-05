@@ -39,3 +39,13 @@
 - Three tabs including information
 
 At this moment we are a 848 and 16 deaths, so taking into consideration the development in other similar countries such as Spain, we are in the best moment to start acting in terms of increasing PPE manufacturing, sharing of information and other measures.
+
+## April 4th
+
+Adding to the problems, one that came into our attention was the incredible amount of "fake news", sensasionalistic "news" and fake information that exists about the contingency. We will then include a 
+
+With that we will then "cure" the proper information into a feed on the platform and add a section indicating all that fake information so the user may be able to discern into them. 
+
+That said we will start creating a prescence in social networks focusing firstly on Reddit and Twitter.
+
+
