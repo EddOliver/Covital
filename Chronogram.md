@@ -42,10 +42,26 @@ At this moment we are a 848 and 16 deaths, so taking into consideration the deve
 
 ## April 4th
 
-Adding to the problems, one that came into our attention was the incredible amount of "fake news", sensasionalistic "news" and fake information that exists about the contingency. We will then include a 
+We will completely drop the ventilator solution as several institutions, startups and makers are already covering that part. There has been an incredible influx of those solutions in Mexico and for us to be doing the same will not add much to that part of the solution, so we will focus on developing the web platform and the IoT components and the Chatbot.
 
-With that we will then "cure" the proper information into a feed on the platform and add a section indicating all that fake information so the user may be able to discern into them. 
+Also, and perhaps this is the most important new development on our side: we will focus our IoT development not on the patients, as it will not have the desired impact, but on the Medical professionals. I.e. doctors, nurses and paramedics. They are the ones that need the most help right now and having some impact in their life quality during this contingency will have great impact.
 
-That said we will start creating a prescence in social networks focusing firstly on Reddit and Twitter. And we created a google form that we will begin spreading to know about the level of information the average Mexican has. 
+Adding to the problems, one that came into our attention was the incredible amount of "fake news", sensasionalistic "news" and fake information that exists about the contingency. With that we will then "cure" the proper information into a feed on the platform and add a section indicating all that fake information so the user may be able to discern into them. 
 
+That said we will start creating a prescence in social networks focusing firstly on Reddit and Twitter. And we created a google form that we will begin spreading to know about the level of information the average Mexican has.
 
+First approach:
+
+<img src="https://i.ibb.co/9n0wX6L/Skype-20200403-172324.jpg">
+
+After some UI redesign:
+
+<img src="https://i.ibb.co/J24rJGG/Capturse.jpg">
+
+We are still working on it and the news feed and aggregator-discriminator.
+
+This is the link to our google form that we will be using to gather info on the informative state of the population, it is simple but better than nothing to prove certain hypothesis that we havce:
+
+https://docs.google.com/forms/d/e/1FAIpQLSeYP7ZD9Yssr_M3wZXP7m_UkMtmt5a4nNVtIxiEPwswNu8Qsw/viewform
+
+At this moment we are at 1890 cases and 79 deaths, we will strive to launch the application and begin developing the IoT devices of the solution next week.
