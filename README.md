@@ -39,6 +39,33 @@ La conclusion es que mexico necesita una plataforma que integre todos los puntos
 
 # Solution and What it does
 
+Creamos una plataforma que tiene 5 funciones principales:
+
+- Realizar un mapa de calor donde podemos observar de forma visual y cuantitativa los casos  positivos de COVID-19 en mexico por cada estado.
+
+<img src="https://i.ibb.co/v1h6sMK/image.png" width="1000">
+
+- Proveer informacion relevante para las personas como lo es:
+  - Correcto lavado de manos
+  - Cubrebocas: Tipos y uso correcto
+  - Fases y medidas preventivas en una pandemia
+  - Sintomas del Covid-19
+  - Que hacer si se sispecha de que se tienen los sintomas
+  - Fuentes oficiales para consultar informacion de calidad.
+  
+  <img src="https://i.ibb.co/zfNVNzV/image.png" width="1000">
+  
+- Sensado cuantitativo de la positividad del pais en general mediante el analisis en tiempo real de los tweets en todo el pais.
+
+  <img src="https://i.ibb.co/FbMqYRC/tweet-anal.png" width="1000">
+
+- Seccion de noticias con las ultimas noticias veridicas
+
+  <img src="https://i.ibb.co/Kyk5kYw/image.png" width="1000">
+
+- Seccion de noticias falsas donde se podamos mostrarle a la gente que es verdad y que no.
+
+  <img src="https://i.ibb.co/q54zLVg/image.png" width="1000">
 
 # How we built it
 
