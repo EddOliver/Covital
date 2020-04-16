@@ -39,3 +39,7 @@ La conclusion es que mexico necesita una plataforma que integre todos los puntos
 
 # Solution and What it does
 
+
+# How we built it
+
+<img src="https://i.ibb.co/Pr7gPcc/Diagrama.png" width="1000">
