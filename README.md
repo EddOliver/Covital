@@ -83,19 +83,30 @@ Todo el desarrollo de la pagina se realizo mediante el framework Reactjs y se ac
 
 <img src="https://i.ibb.co/qJSnQH5/image.png" width="1000">
 
-# API Gateway and Cloud Object Storage:
+# API Gateway:
 
-Toda la integracion de servicios y documentos de la pagina web se realizo a travez de los servicios de API gateway para la peticion de datos de la pagina.
+Toda la integracion de servicios de la pagina web se realizo a travez de los servicios de API gateway para la peticion de datos de la pagina.
 
 <img src="https://i.ibb.co/PNYqnWB/image.png" width="1000">
 
-Cada una de las peticiones de a la api esta asociado a una action programada en NodeJs o Python.
+Cada una de las peticiones de a la api esta asociado a una action programada en NodeJs o Python.La llamada a la API esta protegida mediante una clave X-IBM-Client-Id.
 
+API Paths:
+<img src="https://i.ibb.co/9b4Lgqv/image.png" width="1000">
+API Mexico data request and processing:
 <img src="https://i.ibb.co/3kghvsP/image.png" width="1000">
 
-La llamada a la API esta protegida mediante una clave X-IBM-Client-Id.
+- /car : Webpage Carousel Data
+- /news : Last Covid-19 tweets
+- /mex : Last COVID-19 data in mexico.
+- /twitter-cos : Last polarity data for display.
 
-<img src="https://i.ibb.co/9b4Lgqv/image.png" width="1000">
+# Cloud Object Storage:
+
+Todos los documentos de la pagina como imagenes, iconos, etc... Fueron almacenados en un bucket COS configurado para tener datos archivos publicos.
+
+<img src="https://i.ibb.co/5nL7C82/image.png" width="1000">
+
 
 
 
