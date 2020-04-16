@@ -107,6 +107,17 @@ Todos los documentos de la pagina como imagenes, iconos, etc... Fueron almacenad
 
 <img src="https://i.ibb.co/5nL7C82/image.png" width="1000">
 
+# Twitter Analysis:
+
+Para hacer el analisis de tweeter se utilizo la libreria Tweepy, para capturar todos los Twweets en tiempo real de mexico y analizarlos uno a uno con el servicio Tone Analyzer.
+
+Nota: El servicio de Tone Analyzer funciona con texto en ingles, asi que usamos una api de traduccion de texto Español a ingles como proprocesamiento.
+
+<img src="https://i.ibb.co/hMmczNx/image.png" width="1000">
+
+Este servicio esta corriendo en periodos de tiempo sobre Watson Studio en una Jupyter Notebook, cada que se analizan 100 tweets el algoritmo actualiza el arhivo json con los niveles de positividad guardado de COS.
+
+<img src="https://i.ibb.co/m6scxBS/image.png" width="1000">
 
 
 
