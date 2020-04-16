@@ -1,6 +1,8 @@
 # Covital
 COVID19 information aggregator and data platform for Mexico, includes IoT risk assessing devices.
 
+<img src="https://i.ibb.co/NW6Rmrk/desklogo.png" width="1000">
+
 # Inspiration and Introduction
 
 Pandemias ha habido muchas a lo largo de la historia, en años recientes tal vez las que mas podamos recordar fueron las enfermedades como la gripe porcina AH1N1 (2009), el SARS (2002), el ébola (2014), el MERS (coronavirus, 2015) y ahora el Covid-19.
