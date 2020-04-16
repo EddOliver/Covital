@@ -72,3 +72,31 @@ Creamos una plataforma que tiene 5 funciones principales:
 # How we built it
 
 <img src="https://i.ibb.co/Pr7gPcc/Diagrama.png" width="1000">
+
+# Toolchain and Cloudfoundry app:
+
+Dentro de la consola de IBM creamos una Toolchain cual nos permitiera desplegar una cloudfoundry app dentro de la cloud de ibm y a su vez nos permitiera llevar un control de versiones mediante git.
+
+<img src="https://i.ibb.co/FxDDN1Y/image.png" width="1000">
+
+Todo el desarrollo de la pagina se realizo mediante el framework Reactjs y se actualizaba mediante git en linea de comandos a IBM.
+
+<img src="https://i.ibb.co/qJSnQH5/image.png" width="1000">
+
+# API Gateway and Cloud Object Storage:
+
+Toda la integracion de servicios y documentos de la pagina web se realizo a travez de los servicios de API gateway para la peticion de datos de la pagina.
+
+<img src="https://i.ibb.co/PNYqnWB/image.png" width="1000">
+
+Cada una de las peticiones de a la api esta asociado a una action programada en NodeJs o Python.
+
+<img src="https://i.ibb.co/3kghvsP/image.png" width="1000">
+
+La llamada a la API esta protegida mediante una clave X-IBM-Client-Id.
+
+<img src="https://i.ibb.co/9b4Lgqv/image.png" width="1000">
+
+
+
+
