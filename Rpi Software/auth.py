@@ -287,17 +287,16 @@ class MiBand3(Peripheral):
         char = svc.getCharacteristics(UUIDS.CHARACTERISTIC_ALERT)[0]
         char.write(_type)
 
-    def send_custom_alert(self, type):
+    def send_custom_alert(self, type, message):
         if type == 5:
             base_value = '\x05\x01'
         elif type == 4:
             base_value = '\x04\x01'
         elif type == 3:
                 base_value = '\x03\x01'
-        phone = raw_input('Sender Name or Caller ID')
         svc = self.getServiceByUUID(UUIDS.SERVICE_ALERT_NOTIFICATION)
         char = svc.getCharacteristics(UUIDS.CHARACTERISTIC_CUSTOM_ALERT)[0]
-        char.write(base_value+phone, withResponse=True)
+        char.write((base_value+message).encode(), withResponse=True)
 
     def change_date(self):
         print('Change date and time')

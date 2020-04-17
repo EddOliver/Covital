@@ -22,6 +22,9 @@ def on_message(client, obj, msg):
         mqttc.publish("iot-2/type/Raspberry/id/001/evt/steps/fmt/json",'{"d":{"steps":'+ str(steps)+',"meters":'+str(meters)+'}}')
         print(detail_info())
         time.sleep(1)
+    elif(str(msg.payload.decode())[0:2]=="me"):
+        print(str(msg.payload.decode()))
+        band.send_custom_alert(3,str(msg.payload.decode())[3:len(str(msg.payload.decode()))])
 def call_immediate():
     print('Sending Call Alert')
     time.sleep(1)
@@ -66,7 +69,6 @@ if len(sys.argv) > 2:
 else:
     band.authenticate()
     
-
 ORG = "tj8cfr"
 mqttc = mqtt.Client(client_id="a:tj8cfr:y3zhdy3zcj")
 sub="iot-2/type/Raspberry/id/001/cmd/status/fmt/json"
