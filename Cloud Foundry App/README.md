@@ -1,125 +1,68 @@
-# Covital
+# Cloud Foundry App Setup:
 
-COVID19 information aggregator and data platform for Mexico, includes IoT risk assessing devices.
+Lo primero que tenemos que crear es un recurso de desarrollo de aplicaciones llamado toolchain.
 
-<img src="https://i.ibb.co/NW6Rmrk/desklogo.png" width="1000">
+<img src="https://i.ibb.co/561gFCy/image.png" width="1000">
 
-# Inspiration and Introduction
+Para nuestro caso ya que es una webapp desarrollada en ReactJS, usaremos la siguiente opcion.
 
-Pandemias ha habido muchas a lo largo de la historia, en años recientes tal vez las que mas podamos recordar fueron las enfermedades como la gripe porcina AH1N1 (2009), el SARS (2002), el ébola (2014), el MERS (coronavirus, 2015) y ahora el Covid-19.
+<img src="https://i.ibb.co/mqwSGct/image.png" width="1000">
 
-Sin embargo, nunca tuvimos que vivir en estado de cuarentena global, nunca pensamos que sería tan veloz la instalación de la enfermedad en el mundo. En la actualidad, hay paises que incluso han generado politicas para el uso de armas de fuego contra la gente que no haga cuarentena, en muchos otros solo se promueve el aislamiento y el distanciamiento social como en mexico.
+Nosotros le agregamos la compatibilidad con linea de comandos Git para poder realizar commits desde el desarrollo local directamente a nuestra Cloud Foundry app
 
-Sin embargo a pesar de las constantes peticiones de Hugo López-Gatell Ramírez, assistant secretary of Prevention and Health Promotion, de quedarse en casa y no salir, no han sido suficientes para evitar el crecimiento acelerado de los casos de Covid-19 en mexico.
+<img src="https://i.ibb.co/0ZPKcnr/image.png" width="1000">
 
-<img src="https://i.ibb.co/Qm6Xxcx/stay.png" width="1000">
+Todos los archivos de nuestra plataforma los subiremos mediante commits y podremos verlos con la herramienta Eclipse Orion Web IDE.
 
-En redes sociales sobre todo podemos encontrar casos como estos:
+<img src="https://i.ibb.co/YcjgfbZ/image.png.png" width="1000">
 
-- Gente realizando manualmente face masks sin saber su efectividad:
-<img src="https://i.ibb.co/H74qCGp/download-1.jpg" width="1000">
+Aqui una muestra de los archivos que tenemos en nuestra app y como el estatus de la app esta puesta como running: normal
 
-- Personas que a pesar de la cuarentena van a comprar su pescado al mercado (alarmantemente desde el inicio de la pandemia este mercado en mexico ha tenido un aumento de clientes):
-<img src="https://i.ibb.co/jZrcRSW/Mercado-de-La-Viga-1.jpg" width="1000">
+<img src="https://i.ibb.co/cFgkCRj/image.png" width="1000">
 
-- Gente realizando compras masivas de papel higienico:
-<img src="https://i.ibb.co/P1R0rdn/skynews-covid-19-coronavirus-4952333.jpg" width="1000">
+Independientemente de la app que subas, es necesario que tengas el archivo manifiest.yml que adjuntamos en esta carpeta para que tu app haga un correcto deploy.
 
-- Y claro, gente realizando saqueos masivos de supermercados desde alimentos hasta electrodomesticos:
-<img src="https://i.ibb.co/XS6z0F5/unnamed.jpg" width="1000">
+Todo el control de versiones de nuestra app se lleva mediante el sistema que nos proporciona la toolchain de git.
 
-Desde este momento fue claro que uno de los principales problemas de Mexico ante el coronavirus fue la falta de informacion.
+<img src="https://i.ibb.co/6yBRGwd/image.png" width="1000">
 
-Para confirmar nuestra teoria decidimos realizar una encuesta de (insertar numero de personas de la encuesta) donde encontramos que el (insertar porcentaje) menciona que esta sufriendo una fuerte desinformacion sobre el coronavirus y como evitarlo, aunado a esto que no sabian donde encontrar fuentes fidedignas de informacion, por lo tanto concluimos lo siguiente:
+# Progressive Web App:
 
-- Las personas no saben donde consultar directamente informacion real sobre prevencion.
-- Las personas comparten mucha informacion falsa por redes sociales, generalmente conpiraciones politicas.
-- La mayoria de la gente no tiene una fuente real de los datos estadisticos del Covid-19, mayormente consultando varias fuentes para obetener los datos o directamente esperando diariamente a la hora de los noticieros en la television para oirlos.
+https://main.covital.com.mx/
 
-<img src="https://i.ibb.co/r4ZRknx/image.png" width="300">
+Nota: Los archivos de nuestra pagina web estan en la carpeta "webpage".
 
-La conclusion es que mexico necesita una plataforma que integre todos los puntos antes mencionados, generando una plataforma no solo de datos, sino de informacion importante de prevencion, sintomas, que hacer si te enfermas, etc.
+Nuestra pagina web cuenta con los siguientes elementos:
 
-# Solution and What it does
+- Header de información de contacto y nombre de la app:
 
-Creamos una plataforma que tiene 5 funciones principales:
+<img src="https://i.ibb.co/7X8vD38/image.png" width="1000">
 
-- Realizar un mapa de calor donde podemos observar de forma visual y cuantitativa los casos  positivos de COVID-19 en mexico por cada estado.
+- Mapa de confirmados de COVID-19 en Mexico, los datos del mapa se obtienen de la API del la secretaria de salud de mexico y esta esta api embebida dentro de nuestra propia API de IBM API Gateway ya que les realizamos un pre-procesamiento para facilitar su uso en la pagina, en el lado derecho tenemos un visualizador de datos por estado, el cual a su vez ayuda mucho en la version movil para facilitar la visualización y claro no podia faltar nuestra gráfica de el crecimiento de los contagiados a lo largo del tiempo, en nuestro caso la gráfica empieza desde 02/27/2020.
 
-<img src="https://i.ibb.co/v1h6sMK/image.png" width="1000">
+<img src="https://i.ibb.co/jGS5TVM/image.png" width="1000">
 
-- Proveer informacion relevante para las personas como lo es:
+- En esta seccion tenemos una casilla de información donde mostramos los siguiente topicos como informacion general para la gente, los datos de esta seccion son llamados por API desde API Gateway:
+
   - Correcto lavado de manos
   - Cubrebocas: Tipos y uso correcto
-  - Fases y medidas preventivas en una pandemia
-  - Sintomas del Covid-19
-  - Que hacer si se sispecha de que se tienen los sintomas
-  - Fuentes oficiales para consultar informacion de calidad.
-  
-  <img src="https://i.ibb.co/zfNVNzV/image.png" width="1000">
-  
-- Sensado cuantitativo de la positividad del pais en general mediante el analisis en tiempo real de los tweets en todo el pais.
+  - Fases y medidas preventivas durante una pandemia
+  - Sintomas
+  - ¿Que hacer si sospechas que tienes COVID-19?
+  - Fuentes Oficiales
 
-  <img src="https://i.ibb.co/FbMqYRC/tweet-anal.png" width="1000">
+<img src="https://i.ibb.co/GnDGMC3/image.png" width="1000">
 
-- Seccion de noticias con las ultimas noticias veridicas
+- En esta seccion tenemos un análisis de la positividad de cada uno de los estados realizando procesamiento en tiempo real de los tweets que realiza la gente y analizándolos mediante el resource de IBM llamado Tone Analyzer, este proceso se explicara en detalle en la sección "Twitter - Watson", los datos de esta seccion son llamados por API desde API Gateway:
 
-  <img src="https://i.ibb.co/Kyk5kYw/image.png" width="1000">
+Para facilitar la visualización de el estado representamos el porcentaje con un emoji y el numero de porcentaje abajo.
 
-- Seccion de noticias falsas donde se podamos mostrarle a la gente que es verdad y que no.
+<img src="https://i.ibb.co/VwdzZm9/image.png" width="1000">
 
-  <img src="https://i.ibb.co/q54zLVg/image.png" width="1000">
+- Seccion de noticias que recopila los 3 ultimos tweets de nuestra cuenta de noticias https://twitter.com/ICovital.
 
-# How we built it
+<img src="https://i.ibb.co/WWc7rkt/image.png" width="1000">
 
-<img src="https://i.ibb.co/Pr7gPcc/Diagrama.png" width="1000">
+- Seccion de noticias falsas recopila los 3 ultimos tweets de nuestra cuenta de noticias falsas sobre el COVID-19 https://twitter.com/fcovid20.
 
-# Toolchain and Cloudfoundry app:
-
-Dentro de la consola de IBM creamos una Toolchain cual nos permitiera desplegar una cloudfoundry app dentro de la cloud de ibm y a su vez nos permitiera llevar un control de versiones mediante git.
-
-<img src="https://i.ibb.co/FxDDN1Y/image.png" width="1000">
-
-Todo el desarrollo de la pagina se realizo mediante el framework Reactjs y se actualizaba mediante git en linea de comandos a IBM.
-
-<img src="https://i.ibb.co/qJSnQH5/image.png" width="1000">
-
-# API Gateway:
-
-Toda la integracion de servicios de la pagina web se realizo a travez de los servicios de API gateway para la peticion de datos de la pagina.
-
-<img src="https://i.ibb.co/PNYqnWB/image.png" width="1000">
-
-Cada una de las peticiones de a la api esta asociado a una action programada en NodeJs o Python.La llamada a la API esta protegida mediante una clave X-IBM-Client-Id.
-
-API Paths:
-<img src="https://i.ibb.co/9b4Lgqv/image.png" width="1000">
-API Mexico data request and processing:
-<img src="https://i.ibb.co/3kghvsP/image.png" width="1000">
-
-- /car : Webpage Carousel Data
-- /news : Last Covid-19 tweets
-- /mex : Last COVID-19 data in mexico.
-- /twitter-cos : Last polarity data for display.
-
-# Cloud Object Storage:
-
-Todos los documentos de la pagina como imagenes, iconos, etc... Fueron almacenados en un bucket COS configurado para tener datos archivos publicos.
-
-<img src="https://i.ibb.co/5nL7C82/image.png" width="1000">
-
-# Twitter Analysis:
-
-Para hacer el analisis de tweeter se utilizo la libreria Tweepy, para capturar todos los Twweets en tiempo real de mexico y analizarlos uno a uno con el servicio Tone Analyzer.
-
-Nota: El servicio de Tone Analyzer funciona con texto en ingles, asi que usamos una api de traduccion de texto Español a ingles como proprocesamiento.
-
-<img src="https://i.ibb.co/hMmczNx/image.png" width="1000">
-
-Este servicio esta corriendo en periodos de tiempo sobre Watson Studio en una Jupyter Notebook, cada que se analizan 100 tweets el algoritmo actualiza el arhivo json con los niveles de positividad guardado de COS.
-
-<img src="https://i.ibb.co/m6scxBS/image.png" width="1000">
-
-
-
-
+<img src="https://i.ibb.co/VwdzZm9/image.png" width="1000">

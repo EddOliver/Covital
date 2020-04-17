@@ -1,0 +1,262 @@
+{ 
+  "info1":[
+    {"card1":[
+      {
+       "name":"¿En verdad sabes como lavarte las manos?",
+       "names":"Paso:0",
+       "image":"https://covitalv1.s3.us-south.cloud-object-storage.appdomain.cloud/Manos/1.png",
+       "imageb":"https://covitalv1.s3.us-south.cloud-object-storage.appdomain.cloud/image1.jpg",
+       "info":"Mojarse muy bien las manos con abundante agua.",
+       "moreinfo":"https://www.who.int/gpsc/5may/tools/ES_PSP_GPSC1_Higiene-de-las-Manos_Brochure_June-2012.pdf?ua=1"
+      },
+            {
+       "name":"¿En verdad sabes como lavarte las manos?",
+       "names":"Paso:1",
+       "image":"https://covitalv1.s3.us-south.cloud-object-storage.appdomain.cloud/Manos/2.png",
+       "imageb":"https://covitalv1.s3.us-south.cloud-object-storage.appdomain.cloud/image1.jpg",
+       "info":"Deposite en la palma de la mano una cantidad de jabón suficiente para cubrir toda la superficie de las manos.",
+       "moreinfo":"https://www.who.int/gpsc/5may/tools/ES_PSP_GPSC1_Higiene-de-las-Manos_Brochure_June-2012.pdf?ua=1"
+      },
+            {
+       "name":"¿En verdad sabes como lavarte las manos?",
+       "names":"Paso:2",
+       "image":"https://covitalv1.s3.us-south.cloud-object-storage.appdomain.cloud/Manos/3.png",
+       "imageb":"https://covitalv1.s3.us-south.cloud-object-storage.appdomain.cloud/image1.jpg",
+       "info":"Frótese las palmas de las manos entre si,  el jabón tiene que generar suficiente espuma sobre las palmas.",
+       "moreinfo":"https://www.who.int/gpsc/5may/tools/ES_PSP_GPSC1_Higiene-de-las-Manos_Brochure_June-2012.pdf?ua=1"
+      },
+            {
+       "name":"¿En verdad sabes como lavarte las manos?",
+       "names":"Paso:3",
+       "image":"https://covitalv1.s3.us-south.cloud-object-storage.appdomain.cloud/Manos/4.png",
+       "imageb":"https://covitalv1.s3.us-south.cloud-object-storage.appdomain.cloud/image1.jpg",
+       "info":"Frótese la palma de la mano derecha contra el dorso de la mano izquierda. Entrelazando los dedos y viceversa.",
+       "moreinfo":"https://www.who.int/gpsc/5may/tools/ES_PSP_GPSC1_Higiene-de-las-Manos_Brochure_June-2012.pdf?ua=1"
+      },
+            {
+       "name":"¿En verdad sabes como lavarte las manos?",
+       "names":"Paso:4",
+       "image":"https://covitalv1.s3.us-south.cloud-object-storage.appdomain.cloud/Manos/5.png",
+       "imageb":"https://covitalv1.s3.us-south.cloud-object-storage.appdomain.cloud/image1.jpg",
+       "info":"Frótese las palmas de las manos entre sí, con los dedos entrelazados.",
+       "moreinfo":"https://www.who.int/gpsc/5may/tools/ES_PSP_GPSC1_Higiene-de-las-Manos_Brochure_June-2012.pdf?ua=1"
+      },
+            {
+       "name":"¿En verdad sabes como lavarte las manos?",
+       "names":"Paso:5",
+       "image":"https://covitalv1.s3.us-south.cloud-object-storage.appdomain.cloud/Manos/6.png",
+       "imageb":"https://covitalv1.s3.us-south.cloud-object-storage.appdomain.cloud/image1.jpg",
+       "info":"Frótese el dorso de los dedos de una mano con la palma de la mano opuesta agarrándose los dedos.",
+       "moreinfo":"https://www.who.int/gpsc/5may/tools/ES_PSP_GPSC1_Higiene-de-las-Manos_Brochure_June-2012.pdf?ua=1"
+      },
+            {
+       "name":"¿En verdad sabes como lavarte las manos?",
+       "names":"Paso:6",
+       "image":"https://covitalv1.s3.us-south.cloud-object-storage.appdomain.cloud/Manos/7.png",
+       "imageb":"https://covitalv1.s3.us-south.cloud-object-storage.appdomain.cloud/image1.jpg",
+       "info":"Frótese con un movimiento de rotación el pulgar izquierdo, atrapándolo con la palma de la mano derecha y viceversa.",
+       "moreinfo":"https://www.who.int/gpsc/5may/tools/ES_PSP_GPSC1_Higiene-de-las-Manos_Brochure_June-2012.pdf?ua=1"
+      },
+            {
+       "name":"¿En verdad sabes como lavarte las manos?",
+       "names":"Paso:7",
+       "image":"https://covitalv1.s3.us-south.cloud-object-storage.appdomain.cloud/Manos/8.png",
+       "imageb":"https://covitalv1.s3.us-south.cloud-object-storage.appdomain.cloud/image1.jpg",
+       "info":"Frótese la punta de los dedos de la mano derecha contra la palma de la mano izquierda, haciéndolo en un movimiento de rotación y viceversa.",
+       "moreinfo":"https://www.who.int/gpsc/5may/tools/ES_PSP_GPSC1_Higiene-de-las-Manos_Brochure_June-2012.pdf?ua=1"
+      },
+            {
+       "name":"¿En verdad sabes como lavarte las manos?",
+       "names":"Paso:8",
+       "image":"https://covitalv1.s3.us-south.cloud-object-storage.appdomain.cloud/Manos/9.png",
+       "imageb":"https://covitalv1.s3.us-south.cloud-object-storage.appdomain.cloud/image1.jpg",
+       "info":"Enjuáguese las manos con agua.",
+       "moreinfo":"https://www.who.int/gpsc/5may/tools/ES_PSP_GPSC1_Higiene-de-las-Manos_Brochure_June-2012.pdf?ua=1"
+      },
+            {
+       "name":"¿En verdad sabes como lavarte las manos?",
+       "names":"Paso:9",
+       "image":"https://covitalv1.s3.us-south.cloud-object-storage.appdomain.cloud/Manos/10.png",
+       "imageb":"https://covitalv1.s3.us-south.cloud-object-storage.appdomain.cloud/image1.jpg",
+       "info":"Séquese con una toalla desechable.",
+       "moreinfo":"https://www.who.int/gpsc/5may/tools/ES_PSP_GPSC1_Higiene-de-las-Manos_Brochure_June-2012.pdf?ua=1"
+      },
+            {
+       "name":"¿En verdad sabes como lavarte las manos?",
+       "names":"Paso:10",
+       "image":"https://covitalv1.s3.us-south.cloud-object-storage.appdomain.cloud/Manos/11.png",
+       "imageb":"https://covitalv1.s3.us-south.cloud-object-storage.appdomain.cloud/image1.jpg",
+       "info":"Use la toalla desechable para cerrar el grifo.",
+       "moreinfo":"https://www.who.int/gpsc/5may/tools/ES_PSP_GPSC1_Higiene-de-las-Manos_Brochure_June-2012.pdf?ua=1"
+      },
+            {
+       "name":"¿En verdad sabes como lavarte las manos?",
+       "names":"Paso:11",
+       "image":"https://covitalv1.s3.us-south.cloud-object-storage.appdomain.cloud/Manos/12.png",
+       "imageb":"https://covitalv1.s3.us-south.cloud-object-storage.appdomain.cloud/image1.jpg",
+       "info":"Listo, sus manos están limpias y seguras.",
+       "moreinfo":"https://www.who.int/gpsc/5may/tools/ES_PSP_GPSC1_Higiene-de-las-Manos_Brochure_June-2012.pdf?ua=1"
+      }
+    ],
+    "card2":[
+      {
+       "name":"Cubrebocas21",
+       "names":"Inapropiado",
+       "image":"https://covitalv1.s3.us-south.cloud-object-storage.appdomain.cloud/Manos/1.png",
+       "imageb":"https://d3i11hp0zpbt87.cloudfront.net/media/W1siZiIsIjIwMTYvMDUvMTIvNnJrNTRsYzF5Yl9UaGlua3N0b2NrUGhvdG9zXzE4MzE3NzU2Ni5qcGciXSxbInAiLCJ0aHVtYiIsIjEyNDB4NjQwIyJdXQ?basename=Danger+Assessment+Could+Predict+if+an+Abuser+Will+Kill&sha=188ae45f0a5451a2",
+       "info":"Este es un cubrebocas WTF",
+       "moreinfo":"http://www.iner.salud.gob.mx/descargas/comitebioseguridad/ProteccionRespiratoria.pdf"
+      },
+      {
+        "name":"Cubrebocas22",
+        "names":"Inapropiado",
+        "image":"https://covitalv1.s3.us-south.cloud-object-storage.appdomain.cloud/Manos/1.png",
+        "imageb":"https://d3i11hp0zpbt87.cloudfront.net/media/W1siZiIsIjIwMTYvMDUvMTIvNnJrNTRsYzF5Yl9UaGlua3N0b2NrUGhvdG9zXzE4MzE3NzU2Ni5qcGciXSxbInAiLCJ0aHVtYiIsIjEyNDB4NjQwIyJdXQ?basename=Danger+Assessment+Could+Predict+if+an+Abuser+Will+Kill&sha=188ae45f0a5451a2",
+        "info":"Este es un cubrebocas WTF",
+        "moreinfo":"http://www.iner.salud.gob.mx/descargas/comitebioseguridad/ProteccionRespiratoria.pdf"
+       }
+       ,
+      {
+        "name":"Cubreboca23",
+        "names":"Inapropiado",
+        "image":"https://covitalv1.s3.us-south.cloud-object-storage.appdomain.cloud/Manos/1.png",
+        "imageb":"https://d3i11hp0zpbt87.cloudfront.net/media/W1siZiIsIjIwMTYvMDUvMTIvNnJrNTRsYzF5Yl9UaGlua3N0b2NrUGhvdG9zXzE4MzE3NzU2Ni5qcGciXSxbInAiLCJ0aHVtYiIsIjEyNDB4NjQwIyJdXQ?basename=Danger+Assessment+Could+Predict+if+an+Abuser+Will+Kill&sha=188ae45f0a5451a2",
+        "info":"Este es un cubrebocas WTF",
+        "moreinfo":"http://www.iner.salud.gob.mx/descargas/comitebioseguridad/ProteccionRespiratoria.pdf"
+       }
+    ],
+    "card3":[
+      {
+       "name":"Cubrebocas31",
+       "names":"Inapropiado",
+       "image":"https://cdn.shopify.com/s/files/1/0048/5792/1651/products/cubre-bocas-azul-sms_1024x1024.jpg?v=1530223913",
+       "imageb":"https://d3i11hp0zpbt87.cloudfront.net/media/W1siZiIsIjIwMTYvMDUvMTIvNnJrNTRsYzF5Yl9UaGlua3N0b2NrUGhvdG9zXzE4MzE3NzU2Ni5qcGciXSxbInAiLCJ0aHVtYiIsIjEyNDB4NjQwIyJdXQ?basename=Danger+Assessment+Could+Predict+if+an+Abuser+Will+Kill&sha=188ae45f0a5451a2",
+       "info":"Este es un cubrebocas WTF",
+       "moreinfo":"http://www.iner.salud.gob.mx/descargas/comitebioseguridad/ProteccionRespiratoria.pdf"
+      },
+      {
+        "name":"Cubrebocas32",
+        "names":"Inapropiado",
+        "image":"https://cdn.shopify.com/s/files/1/0048/5792/1651/products/cubre-bocas-azul-sms_1024x1024.jpg?v=1530223913",
+        "imageb":"https://d3i11hp0zpbt87.cloudfront.net/media/W1siZiIsIjIwMTYvMDUvMTIvNnJrNTRsYzF5Yl9UaGlua3N0b2NrUGhvdG9zXzE4MzE3NzU2Ni5qcGciXSxbInAiLCJ0aHVtYiIsIjEyNDB4NjQwIyJdXQ?basename=Danger+Assessment+Could+Predict+if+an+Abuser+Will+Kill&sha=188ae45f0a5451a2",
+        "info":"Este es un cubrebocas WTF",
+        "moreinfo":"http://www.iner.salud.gob.mx/descargas/comitebioseguridad/ProteccionRespiratoria.pdf"
+       }
+       ,
+      {
+        "name":"Cubrebocas33",
+        "names":"Inapropiado",
+        "image":"https://cdn.shopify.com/s/files/1/0048/5792/1651/products/cubre-bocas-azul-sms_1024x1024.jpg?v=1530223913",
+        "imageb":"https://d3i11hp0zpbt87.cloudfront.net/media/W1siZiIsIjIwMTYvMDUvMTIvNnJrNTRsYzF5Yl9UaGlua3N0b2NrUGhvdG9zXzE4MzE3NzU2Ni5qcGciXSxbInAiLCJ0aHVtYiIsIjEyNDB4NjQwIyJdXQ?basename=Danger+Assessment+Could+Predict+if+an+Abuser+Will+Kill&sha=188ae45f0a5451a2",
+        "info":"Este es un cubrebocas WTF",
+        "moreinfo":"http://www.iner.salud.gob.mx/descargas/comitebioseguridad/ProteccionRespiratoria.pdf"
+       }
+    ],
+    "card4":[
+      {
+       "name":"Cubrebocas41",
+       "names":"Inapropiado",
+       "image":"https://cdn.shopify.com/s/files/1/0048/5792/1651/products/cubre-bocas-azul-sms_1024x1024.jpg?v=1530223913",
+       "imageb":"https://d3i11hp0zpbt87.cloudfront.net/media/W1siZiIsIjIwMTYvMDUvMTIvNnJrNTRsYzF5Yl9UaGlua3N0b2NrUGhvdG9zXzE4MzE3NzU2Ni5qcGciXSxbInAiLCJ0aHVtYiIsIjEyNDB4NjQwIyJdXQ?basename=Danger+Assessment+Could+Predict+if+an+Abuser+Will+Kill&sha=188ae45f0a5451a2",
+       "info":"Este es un cubrebocas WTF",
+       "moreinfo":"http://www.iner.salud.gob.mx/descargas/comitebioseguridad/ProteccionRespiratoria.pdf"
+      },
+      {
+        "name":"Cubrebocas42",
+        "names":"Inapropiado",
+        "image":"https://cdn.shopify.com/s/files/1/0048/5792/1651/products/cubre-bocas-azul-sms_1024x1024.jpg?v=1530223913",
+        "imageb":"https://d3i11hp0zpbt87.cloudfront.net/media/W1siZiIsIjIwMTYvMDUvMTIvNnJrNTRsYzF5Yl9UaGlua3N0b2NrUGhvdG9zXzE4MzE3NzU2Ni5qcGciXSxbInAiLCJ0aHVtYiIsIjEyNDB4NjQwIyJdXQ?basename=Danger+Assessment+Could+Predict+if+an+Abuser+Will+Kill&sha=188ae45f0a5451a2",
+        "info":"Este es un cubrebocas WTF",
+        "moreinfo":"http://www.iner.salud.gob.mx/descargas/comitebioseguridad/ProteccionRespiratoria.pdf"
+       }
+       ,
+      {
+        "name":"Cubrebocas43",
+        "names":"Inapropiado",
+        "image":"https://cdn.shopify.com/s/files/1/0048/5792/1651/products/cubre-bocas-azul-sms_1024x1024.jpg?v=1530223913",
+        "imageb":"https://d3i11hp0zpbt87.cloudfront.net/media/W1siZiIsIjIwMTYvMDUvMTIvNnJrNTRsYzF5Yl9UaGlua3N0b2NrUGhvdG9zXzE4MzE3NzU2Ni5qcGciXSxbInAiLCJ0aHVtYiIsIjEyNDB4NjQwIyJdXQ?basename=Danger+Assessment+Could+Predict+if+an+Abuser+Will+Kill&sha=188ae45f0a5451a2",
+        "info":"Este es un cubrebocas WTF",
+        "moreinfo":"http://www.iner.salud.gob.mx/descargas/comitebioseguridad/ProteccionRespiratoria.pdf"
+       },
+       {
+        "name":"Cubrebocas44",
+        "names":"Inapropiado",
+        "image":"https://cdn.shopify.com/s/files/1/0048/5792/1651/products/cubre-bocas-azul-sms_1024x1024.jpg?v=1530223913",
+        "imageb":"https://d3i11hp0zpbt87.cloudfront.net/media/W1siZiIsIjIwMTYvMDUvMTIvNnJrNTRsYzF5Yl9UaGlua3N0b2NrUGhvdG9zXzE4MzE3NzU2Ni5qcGciXSxbInAiLCJ0aHVtYiIsIjEyNDB4NjQwIyJdXQ?basename=Danger+Assessment+Could+Predict+if+an+Abuser+Will+Kill&sha=188ae45f0a5451a2",
+        "info":"Este es un cubrebocas WTF",
+        "moreinfo":"http://www.iner.salud.gob.mx/descargas/comitebioseguridad/ProteccionRespiratoria.pdf"
+       }
+    ],
+    "card5":[
+        {
+         "name":"Cubrebocas41",
+         "names":"Inapropiado",
+         "image":"https://cdn.shopify.com/s/files/1/0048/5792/1651/products/cubre-bocas-azul-sms_1024x1024.jpg?v=1530223913",
+         "imageb":"https://d3i11hp0zpbt87.cloudfront.net/media/W1siZiIsIjIwMTYvMDUvMTIvNnJrNTRsYzF5Yl9UaGlua3N0b2NrUGhvdG9zXzE4MzE3NzU2Ni5qcGciXSxbInAiLCJ0aHVtYiIsIjEyNDB4NjQwIyJdXQ?basename=Danger+Assessment+Could+Predict+if+an+Abuser+Will+Kill&sha=188ae45f0a5451a2",
+         "info":"Este es un cubrebocas WTF",
+         "moreinfo":"http://www.iner.salud.gob.mx/descargas/comitebioseguridad/ProteccionRespiratoria.pdf"
+        },
+        {
+          "name":"Cubrebocas42",
+          "names":"Inapropiado",
+          "image":"https://cdn.shopify.com/s/files/1/0048/5792/1651/products/cubre-bocas-azul-sms_1024x1024.jpg?v=1530223913",
+          "imageb":"https://d3i11hp0zpbt87.cloudfront.net/media/W1siZiIsIjIwMTYvMDUvMTIvNnJrNTRsYzF5Yl9UaGlua3N0b2NrUGhvdG9zXzE4MzE3NzU2Ni5qcGciXSxbInAiLCJ0aHVtYiIsIjEyNDB4NjQwIyJdXQ?basename=Danger+Assessment+Could+Predict+if+an+Abuser+Will+Kill&sha=188ae45f0a5451a2",
+          "info":"Este es un cubrebocas WTF",
+          "moreinfo":"http://www.iner.salud.gob.mx/descargas/comitebioseguridad/ProteccionRespiratoria.pdf"
+         }
+         ,
+        {
+          "name":"Cubrebocas43",
+          "names":"Inapropiado",
+          "image":"https://cdn.shopify.com/s/files/1/0048/5792/1651/products/cubre-bocas-azul-sms_1024x1024.jpg?v=1530223913",
+          "imageb":"https://d3i11hp0zpbt87.cloudfront.net/media/W1siZiIsIjIwMTYvMDUvMTIvNnJrNTRsYzF5Yl9UaGlua3N0b2NrUGhvdG9zXzE4MzE3NzU2Ni5qcGciXSxbInAiLCJ0aHVtYiIsIjEyNDB4NjQwIyJdXQ?basename=Danger+Assessment+Could+Predict+if+an+Abuser+Will+Kill&sha=188ae45f0a5451a2",
+          "info":"Este es un cubrebocas WTF",
+          "moreinfo":"http://www.iner.salud.gob.mx/descargas/comitebioseguridad/ProteccionRespiratoria.pdf"
+         },
+         {
+          "name":"Cubrebocas44",
+          "names":"Inapropiado",
+          "image":"https://cdn.shopify.com/s/files/1/0048/5792/1651/products/cubre-bocas-azul-sms_1024x1024.jpg?v=1530223913",
+          "imageb":"https://d3i11hp0zpbt87.cloudfront.net/media/W1siZiIsIjIwMTYvMDUvMTIvNnJrNTRsYzF5Yl9UaGlua3N0b2NrUGhvdG9zXzE4MzE3NzU2Ni5qcGciXSxbInAiLCJ0aHVtYiIsIjEyNDB4NjQwIyJdXQ?basename=Danger+Assessment+Could+Predict+if+an+Abuser+Will+Kill&sha=188ae45f0a5451a2",
+          "info":"Este es un cubrebocas WTF",
+          "moreinfo":"http://www.iner.salud.gob.mx/descargas/comitebioseguridad/ProteccionRespiratoria.pdf"
+         }
+      ],
+      "card6":[
+        {
+         "name":"Cubrebocas41",
+         "names":"Inapropiado",
+         "image":"https://cdn.shopify.com/s/files/1/0048/5792/1651/products/cubre-bocas-azul-sms_1024x1024.jpg?v=1530223913",
+         "imageb":"https://d3i11hp0zpbt87.cloudfront.net/media/W1siZiIsIjIwMTYvMDUvMTIvNnJrNTRsYzF5Yl9UaGlua3N0b2NrUGhvdG9zXzE4MzE3NzU2Ni5qcGciXSxbInAiLCJ0aHVtYiIsIjEyNDB4NjQwIyJdXQ?basename=Danger+Assessment+Could+Predict+if+an+Abuser+Will+Kill&sha=188ae45f0a5451a2",
+         "info":"Este es un cubrebocas WTF",
+         "moreinfo":"http://www.iner.salud.gob.mx/descargas/comitebioseguridad/ProteccionRespiratoria.pdf"
+        },
+        {
+          "name":"Cubrebocas42",
+          "names":"Inapropiado",
+          "image":"https://cdn.shopify.com/s/files/1/0048/5792/1651/products/cubre-bocas-azul-sms_1024x1024.jpg?v=1530223913",
+          "imageb":"https://d3i11hp0zpbt87.cloudfront.net/media/W1siZiIsIjIwMTYvMDUvMTIvNnJrNTRsYzF5Yl9UaGlua3N0b2NrUGhvdG9zXzE4MzE3NzU2Ni5qcGciXSxbInAiLCJ0aHVtYiIsIjEyNDB4NjQwIyJdXQ?basename=Danger+Assessment+Could+Predict+if+an+Abuser+Will+Kill&sha=188ae45f0a5451a2",
+          "info":"Este es un cubrebocas WTF",
+          "moreinfo":"http://www.iner.salud.gob.mx/descargas/comitebioseguridad/ProteccionRespiratoria.pdf"
+         }
+         ,
+        {
+          "name":"Cubrebocas43",
+          "names":"Inapropiado",
+          "image":"https://cdn.shopify.com/s/files/1/0048/5792/1651/products/cubre-bocas-azul-sms_1024x1024.jpg?v=1530223913",
+          "imageb":"https://d3i11hp0zpbt87.cloudfront.net/media/W1siZiIsIjIwMTYvMDUvMTIvNnJrNTRsYzF5Yl9UaGlua3N0b2NrUGhvdG9zXzE4MzE3NzU2Ni5qcGciXSxbInAiLCJ0aHVtYiIsIjEyNDB4NjQwIyJdXQ?basename=Danger+Assessment+Could+Predict+if+an+Abuser+Will+Kill&sha=188ae45f0a5451a2",
+          "info":"Este es un cubrebocas WTF",
+          "moreinfo":"http://www.iner.salud.gob.mx/descargas/comitebioseguridad/ProteccionRespiratoria.pdf"
+         },
+         {
+          "name":"Cubrebocas44",
+          "names":"Inapropiado",
+          "image":"https://cdn.shopify.com/s/files/1/0048/5792/1651/products/cubre-bocas-azul-sms_1024x1024.jpg?v=1530223913",
+          "imageb":"https://d3i11hp0zpbt87.cloudfront.net/media/W1siZiIsIjIwMTYvMDUvMTIvNnJrNTRsYzF5Yl9UaGlua3N0b2NrUGhvdG9zXzE4MzE3NzU2Ni5qcGciXSxbInAiLCJ0aHVtYiIsIjEyNDB4NjQwIyJdXQ?basename=Danger+Assessment+Could+Predict+if+an+Abuser+Will+Kill&sha=188ae45f0a5451a2",
+          "info":"Este es un cubrebocas WTF",
+          "moreinfo":"http://www.iner.salud.gob.mx/descargas/comitebioseguridad/ProteccionRespiratoria.pdf"
+         }
+      ]
+    }
+  ]
+  } 
