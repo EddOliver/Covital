@@ -1,125 +1,93 @@
-# Covital
+# Api Gateway Setup:
 
-COVID19 information aggregator and data platform for Mexico, includes IoT risk assessing devices.
+En esta seccion mostrare como es el proceso de configuración de nuestra api gateway. 
 
-<img src="https://i.ibb.co/NW6Rmrk/desklogo.png" width="1000">
+<img src="https://i.ibb.co/D749zy3/APIDiagram.png" width="1000">
 
-# Inspiration and Introduction
+# API Creation:
 
-Pandemias ha habido muchas a lo largo de la historia, en años recientes tal vez las que mas podamos recordar fueron las enfermedades como la gripe porcina AH1N1 (2009), el SARS (2002), el ébola (2014), el MERS (coronavirus, 2015) y ahora el Covid-19.
+Primero buscamos el servicio de API Gateway y cremos el recurso.
 
-Sin embargo, nunca tuvimos que vivir en estado de cuarentena global, nunca pensamos que sería tan veloz la instalación de la enfermedad en el mundo. En la actualidad, hay paises que incluso han generado politicas para el uso de armas de fuego contra la gente que no haga cuarentena, en muchos otros solo se promueve el aislamiento y el distanciamiento social como en mexico.
+<img src="https://i.ibb.co/jyQCNK0/image.png" width="1000">
 
-Sin embargo a pesar de las constantes peticiones de Hugo López-Gatell Ramírez, assistant secretary of Prevention and Health Promotion, de quedarse en casa y no salir, no han sido suficientes para evitar el crecimiento acelerado de los casos de Covid-19 en mexico.
+Para nuestra apicacion decidimos crear una API gateway basada en Cloud Functions, debido a que hibamos a requeria integrar el servicio de Cloud Object Storage y preprocesamiento en Python.
 
-<img src="https://i.ibb.co/Qm6Xxcx/stay.png" width="1000">
+<img src="https://i.ibb.co/rytWDmC/image.png" width="1000">
 
-En redes sociales sobre todo podemos encontrar casos como estos:
+Recomiendo revisar un poco todos estos menus para que te familiarices con ellos, sin embargo como primera tarea vamos a crear las acciones que va a ejecutar nuestra API.
 
-- Gente realizando manualmente face masks sin saber su efectividad:
-<img src="https://i.ibb.co/H74qCGp/download-1.jpg" width="1000">
+<img src="https://i.ibb.co/vxG6yKm/image.png" width="1000">
 
-- Personas que a pesar de la cuarentena van a comprar su pescado al mercado (alarmantemente desde el inicio de la pandemia este mercado en mexico ha tenido un aumento de clientes):
-<img src="https://i.ibb.co/jZrcRSW/Mercado-de-La-Viga-1.jpg" width="1000">
+En este caso el proceso para crear las 4 Actions sera el mismo, asi que presionamos en boton "Create" 
 
-- Gente realizando compras masivas de papel higienico:
-<img src="https://i.ibb.co/P1R0rdn/skynews-covid-19-coronavirus-4952333.jpg" width="1000">
+<img src="https://i.ibb.co/RQNF1pg/image.png" width="1000">
 
-- Y claro, gente realizando saqueos masivos de supermercados desde alimentos hasta electrodomesticos:
-<img src="https://i.ibb.co/XS6z0F5/unnamed.jpg" width="1000">
+Ya que no usaremos "Actions" con ningún paquete adicional de python o nodejs, simplemente presionaremos el botón de "Create Action"
 
-Desde este momento fue claro que uno de los principales problemas de Mexico ante el coronavirus fue la falta de informacion.
+<img src="https://i.ibb.co/K5WGQ8y/image.png" width="1000">
 
-Para confirmar nuestra teoria decidimos realizar una encuesta de (insertar numero de personas de la encuesta) donde encontramos que el (insertar porcentaje) menciona que esta sufriendo una fuerte desinformacion sobre el coronavirus y como evitarlo, aunado a esto que no sabian donde encontrar fuentes fidedignas de informacion, por lo tanto concluimos lo siguiente:
+En cada una de las Actions le pondremos el nombre correspondiente a cada accion y selecionaremos el Runtime que requiramos en nuestro caso utilizamos Python y NodeJS.
 
-- Las personas no saben donde consultar directamente informacion real sobre prevencion.
-- Las personas comparten mucha informacion falsa por redes sociales, generalmente conpiraciones politicas.
-- La mayoria de la gente no tiene una fuente real de los datos estadisticos del Covid-19, mayormente consultando varias fuentes para obetener los datos o directamente esperando diariamente a la hora de los noticieros en la television para oirlos.
+<img src="https://i.ibb.co/Y34p7nW/image.png" width="1000">
 
-<img src="https://i.ibb.co/r4ZRknx/image.png" width="300">
+Las acciones que creamos fueron las siguientes:
 
-La conclusion es que mexico necesita una plataforma que integre todos los puntos antes mencionados, generando una plataforma no solo de datos, sino de informacion importante de prevencion, sintomas, que hacer si te enfermas, etc.
+- carousel - (NodeJS) - Proporciona la información de los carruseles de nuestra pagina web.
+- mexinfo - (Python) - Proporciona la información de patentes confirmados de Covid-19 en Mexico para ser expuesta en la pagina web, API de la secretaria de salud de Mexico.
+- twitter-cos - (Python) - Obtiene el archivo con la información se polaridad emocional guardado en Cloud Object Storage, lo abre, lo decodifica y lo manda como response a la pagina web para desplegar el mapa de polaridad emocional.
+- news - (Python) - Manda la lista de tweets que se van a desplegar en la pagina web.
 
-# Solution and What it does
+Para cada Action, pegaremos el código correspondiente y le daremos en guardar.
 
-Creamos una plataforma que tiene 5 funciones principales:
+<img src="https://i.ibb.co/27C5c5z/image.png" width="1000">
 
-- Realizar un mapa de calor donde podemos observar de forma visual y cuantitativa los casos  positivos de COVID-19 en mexico por cada estado.
+Ahora nos vamos a la seccion de API para crear nuestra API.
 
-<img src="https://i.ibb.co/v1h6sMK/image.png" width="1000">
+<img src="https://i.ibb.co/TkC41Gq/image.png" width="1000">
 
-- Proveer informacion relevante para las personas como lo es:
-  - Correcto lavado de manos
-  - Cubrebocas: Tipos y uso correcto
-  - Fases y medidas preventivas en una pandemia
-  - Sintomas del Covid-19
-  - Que hacer si se sispecha de que se tienen los sintomas
-  - Fuentes oficiales para consultar informacion de calidad.
-  
-  <img src="https://i.ibb.co/zfNVNzV/image.png" width="1000">
-  
-- Sensado cuantitativo de la positividad del pais en general mediante el analisis en tiempo real de los tweets en todo el pais.
+Primero vamos a nombrar a nuestra API y le añadiremos las acciones con el botón de Create Operation.
 
-  <img src="https://i.ibb.co/FbMqYRC/tweet-anal.png" width="1000">
+<img src="https://i.ibb.co/Jnc5sWJ/image.png" width="1000">
 
-- Seccion de noticias con las ultimas noticias veridicas
+Como ejemplo configurare la acción de news.
 
-  <img src="https://i.ibb.co/Kyk5kYw/image.png" width="1000">
+<img src="https://i.ibb.co/XDnHCVS/image.png" width="1000">
 
-- Seccion de noticias falsas donde se podamos mostrarle a la gente que es verdad y que no.
+Para mayor seguridad de la Api le agregamos una Api Key.
 
-  <img src="https://i.ibb.co/q54zLVg/image.png" width="1000">
+<img src="https://i.ibb.co/jhX1zws/image.png" width="1000">
 
-# How we built it
+Todo lo demas lo dejamos tal como esta y seleccionamos el boton del fondo que dice Create (ya por default esta activado el CORS, dejalo asi para poder llamar la Api desde tu pagina web).
 
-<img src="https://i.ibb.co/Pr7gPcc/Diagrama.png" width="1000">
+<img src="https://i.ibb.co/XJ3hW6S/image.png" width="1000">
 
-# Toolchain and Cloudfoundry app:
+Una vez hecho esto entraremos a la Api y a la opcion API Explorer.
 
-Dentro de la consola de IBM creamos una Toolchain cual nos permitiera desplegar una cloudfoundry app dentro de la cloud de ibm y a su vez nos permitiera llevar un control de versiones mediante git.
+Nota: la apikey para llamar a la API esta en el boton que dice Sharing and Keys
 
-<img src="https://i.ibb.co/FxDDN1Y/image.png" width="1000">
+<img src="https://i.ibb.co/8mgJT5S/image.png" width="1000">
 
-Todo el desarrollo de la pagina se realizo mediante el framework Reactjs y se actualizaba mediante git en linea de comandos a IBM.
+Podemos observar dentro de este menu una seccion de codigo para probar que nuestra API funciona.
 
-<img src="https://i.ibb.co/qJSnQH5/image.png" width="1000">
+<img src="https://i.ibb.co/GQjkfGY/image.png" width="1000">
 
-# API Gateway:
+En mi caso hice la prueba de mi API en el programa Postman y aqui un screenshot de como esta funcionando.
 
-Toda la integracion de servicios de la pagina web se realizo a travez de los servicios de API gateway para la peticion de datos de la pagina.
+<img src="https://i.ibb.co/Lv0197s/image.png" width="1000">
 
-<img src="https://i.ibb.co/PNYqnWB/image.png" width="1000">
+Todas las llamadas de estas API a la pagina web se realizaron con el modulo request para ReactJS.
 
-Cada una de las peticiones de a la api esta asociado a una action programada en NodeJs o Python.La llamada a la API esta protegida mediante una clave X-IBM-Client-Id.
-
-API Paths:
-<img src="https://i.ibb.co/9b4Lgqv/image.png" width="1000">
-API Mexico data request and processing:
-<img src="https://i.ibb.co/3kghvsP/image.png" width="1000">
-
-- /car : Webpage Carousel Data
-- /news : Last Covid-19 tweets
-- /mex : Last COVID-19 data in mexico.
-- /twitter-cos : Last polarity data for display.
-
-# Cloud Object Storage:
-
-Todos los documentos de la pagina como imagenes, iconos, etc... Fueron almacenados en un bucket COS configurado para tener datos archivos publicos.
-
-<img src="https://i.ibb.co/5nL7C82/image.png" width="1000">
-
-# Twitter Analysis:
-
-Para hacer el analisis de tweeter se utilizo la libreria Tweepy, para capturar todos los Twweets en tiempo real de mexico y analizarlos uno a uno con el servicio Tone Analyzer.
-
-Nota: El servicio de Tone Analyzer funciona con texto en ingles, asi que usamos una api de traduccion de texto Español a ingles como proprocesamiento.
-
-<img src="https://i.ibb.co/hMmczNx/image.png" width="1000">
-
-Este servicio esta corriendo en periodos de tiempo sobre Watson Studio en una Jupyter Notebook, cada que se analizan 100 tweets el algoritmo actualiza el arhivo json con los niveles de positividad guardado de COS.
-
-<img src="https://i.ibb.co/m6scxBS/image.png" width="1000">
-
-
-
+    var request = require('request');
+    var options = {
+      'method': 'GET',
+      'url': 'https://ABCDFG.us-south.apigw.appdomain.cloud/covital-mexico/news',
+      'headers': {
+        'accept': 'application/json',
+        'x-ibm-client-id': 'xxxx-xxxxxxxx-xxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxx'
+      }
+    };
+    request(options, function (error, response) { 
+      if (error) throw new Error(error);
+      console.log(response.body);
+    });
 
