@@ -1,7 +1,5 @@
 import sys
 from auth import MiBand3
-from cursesmenu import *
-from cursesmenu.items import *
 from constants import ALERT_TYPES
 import time
 import os
