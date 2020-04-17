@@ -80,7 +80,7 @@ Todas las llamadas de estas API a la pagina web se realizaron con el modulo requ
     var request = require('request');
     var options = {
       'method': 'GET',
-      'url': 'https://ABCDFG.us-south.apigw.appdomain.cloud/covital-mexico/news',
+      'url': 'https://ABCDFG.us-south.apigw.appdomain.cloud/YOUR-API/YOURACTION',
       'headers': {
         'accept': 'application/json',
         'x-ibm-client-id': 'xxxx-xxxxxxxx-xxxxxxxxxx-xxxxxxxxxxxxxxxxxxxxxxx'
