@@ -2,7 +2,7 @@
 
 Para nuestro dispositivo de cuidado de personal de salud IoT utilizamos una smart watch MiBand3 de Xiaomi para revisar el pulso y los pasos recorridos, utilizamos una Raspberry Pi Zero W como gateway para mandar los datos a IBM Internet of Things Platform
 
-<img src="https://i.ibb.co/HzGH5Yt/Diagrqmiot.png" width="1000">
+<img src="https://i.ibb.co/BNPT6VK/Diagrqmiot.png" width="1000">
 
 ## Configure your IBM Watson IoT Platform:
 
