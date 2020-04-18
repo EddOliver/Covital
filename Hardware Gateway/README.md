@@ -12,16 +12,16 @@ Download the operating system of the Raspberry Pi Zero.
 - Link: http://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2019-04-09/2019-04-08-raspbian-stretch-lite.zip
 - Download this version.
 
-3.2. Flash the operating system in the SD.
+Flash the operating system in the SD.
 
 Software: https://www.balena.io/etcher/
 
 - Through Etcher flash the raspberry operating system but DO NOT put it inside the raspberry yet.
 
-3.3. Create a wpa_supplicant for the connection of the raspberry to the internet.
+Create a wpa_supplicant for the connection of the raspberry to the internet.
 
-- Since we have flashed the operating system, we copy and paste the files from the "RaspberryPi" folder directly into the SD card.
-- Then we open the "wpa_supplicant.conf" file with a text editor
+- Since you have flashed the operating system, copy and paste the files from the "RaspberryPi" folder directly into the SD card.
+- Then open the "wpa_supplicant.conf" file with a text editor
 - In between the quotes in the ssid line write your wifi network and in psk the network key.
 
         country = us
@@ -38,11 +38,11 @@ Software: https://www.balena.io/etcher/
 
 - We save the changes and remove the SD from the PC.
 
-3.4. We then place the SD in the raspberry and connect it to its power source.
+We then place the SD in the raspberry and connect it to its power source.
 
 - The power source of a Raspberry Pi Zero is recommended to be from 5 volts to 1A minimum. We recommend the official ower supply for the Raspberry pi.
 
-3.5. Once the Raspberry has already started, we need to access it through SSH or with a keyboard and a monitor.
+Once the Raspberry has already started, we need to access it through SSH or with a keyboard and a monitor.
 
 - If you want to access it through SSH we need your IP.
 - In order to analyze your network and obtain the number we will have to use one of the following programs.
@@ -51,20 +51,7 @@ Software: https://www.balena.io/etcher/
 
 <img src="https://i.ibb.co/KLThvst/AngryIP.png"> 
 
-3.6. Copy the program inside the "RaspberrySoft" folder using FileZilla to the raspberry.
-
-- To pass the file via wifi to the raspberry we have to download another program called "FileZilla".
-- Link: https://filezilla-project.org/download.php?type=client
-- Once we have the program, we open it and input the following data in the upper bar to access the raspberry.
-
-Host: RASPBERRYIP              Username:pi           Password:raspberry             port:22
-
-<img src="https://i.ibb.co/4Y80V96/filezilla.png"> 
-
-- Press Quickconnect.
-- Once we enter the Raspberry, we copy the file "exe.py" in the folder "/home/pi".
-
-3.7. Since we have the file in the raspberry, now we have to connect the raspberry with ssh.
+Connect the raspberry with ssh.
 
 - To connect using ssh to the raspberry we need the Putty program.
 - Link: https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
@@ -79,47 +66,20 @@ Host: RASPBERRYIP              Username:pi           Password:raspberry         
 
 <img src="https://i.ibb.co/NthRqRc/terminal2.png">
 
-3.8. First, we will install the necessary libraries for our program to work.
+First, we will install the necessary libraries for our program to work.
 
 - For it to work we just have to input the following command.
 
-      sudo apt-get update && sudo apt-get install -y python-pip && pip install pyserial paho-mqtt
+      sudo apt-get python3-pip
+      pip3 install bluepy Crypto crc16 paho-mqtt
 
-- This command will install the pyserial and paho-mqtt libraries
+- Ahora descarga la carpeta con nuestro programa.
 
-3.9. Once the console is open, we will edit the file used in the previous paragraph to configure the IP of the Ultra96.
+       git clone https://github.com/EddOliver/Covital
 
-- In the Raspberry's terminal we will write the following command.
-     
-    sudo nano exe.py
 
-<img src="https://i.ibb.co/JCpSFDJ/terminalcomand.png">
 
-- The command will open the text editor where we can go through the file "exe.py".
-- We go down to the part shown in the image and instead of the text "ULTRA96IP" we will input the IP that we obtained in subsection 1.9.
 
-<img src="https://i.ibb.co/gwmdqyZ/Putty.png">
-
-- Since we changed that text, we will save the changes made by pressing "ctrl + o" and enter, and to exit the editor pressing "ctrl + c".
-
-3.10. Input boot program for the Raspberry Zero.
-In order for the program to start together with raspbian, and for us to no longer need to execute it, we will write the following command.
-
-    sudo nano /etc/rc.local
-
-<img src="https://i.ibb.co/t46LWqc/start.png">
-
-- Inside the file we will have to write the following:
-
-      sudo python /home/pi/exe.py
-      
-<img src="https://i.ibb.co/177pdcd/start2.png">
-
-- After adding that text, we will save the changes made by pressing "ctrl + o" and enter, to exit the editor press "ctrl + c".
-
-COVID19 information aggregator and data platform for Mexico, includes IoT risk assessing devices.
-
-<img src="https://i.ibb.co/NW6Rmrk/desklogo.png" width="1000">
 
 # Inspiration and Introduction
 
