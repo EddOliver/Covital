@@ -24,7 +24,7 @@ Independientemente de la app que subas, es necesario que tengas el archivo manif
 
 Todo el control de versiones de nuestra app se lleva mediante el sistema que nos proporciona la toolchain de git.
 
-<img src="https://i.ibb.co/6yBRGwd/image.png" width="1000">
+<img src="https://i.ibb.co/2g6KZRQ/image.png" width="1000">
 
 # Progressive Web App:
 
