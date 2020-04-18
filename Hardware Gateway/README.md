@@ -85,7 +85,7 @@ Once the Raspberry has already started, we need to access it through SSH or with
 - Advanced IP Scanner (Windows) or Angry IP Scanner program (Windows, Mac and Linux).
 - In the following image you can see how we got the Raspberry IP.
 
-<img src="https://i.ibb.co/KLThvst/AngryIP.png"> 
+<img src="https://i.ibb.co/q9BM6dP/image.png"> 
 
 Connect the raspberry with ssh.
 
@@ -100,7 +100,7 @@ Connect the raspberry with ssh.
 
 - Password: “raspberry”
 
-<img src="https://i.ibb.co/NthRqRc/terminal2.png">
+<img src="https://i.ibb.co/QpWj18S/image.png">
 
 First, we will install the necessary libraries for our program to work.
 
