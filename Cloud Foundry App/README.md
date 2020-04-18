@@ -8,7 +8,7 @@ Para nuestro caso ya que es una webapp desarrollada en ReactJS, usaremos la sigu
 
 <img src="https://i.ibb.co/mqwSGct/image.png" width="1000">
 
-Nosotros le agregamos la compatibilidad con linea de comandos Git para poder realizar commits desde el desarrollo local directamente a nuestra Cloud Foundry app
+Nosotros le agregamos la compatibilidad con linea de comandos Git para poder realizar commits desde el desarrollo local directamente a nuestra Cloud Foundry app.
 
 <img src="https://i.ibb.co/0ZPKcnr/image.png" width="1000">
 
