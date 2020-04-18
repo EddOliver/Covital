@@ -65,4 +65,4 @@ Para facilitar la visualización de el estado representamos el porcentaje con un
 
 - Seccion de noticias falsas recopila los 3 ultimos tweets de nuestra cuenta de noticias falsas sobre el COVID-19 https://twitter.com/fcovid20.
 
-<img src="https://i.ibb.co/FsRdq73/image.png" width="1000">
+<img src="https://i.ibb.co/qmKg27p/image.png" width="1000">
