@@ -147,7 +147,7 @@ First, we will install the necessary libraries for our program to work.
 
 - Una vez tenemos todo conectado, vamos a probar que todo este funcionando correctamente mandando algunos comandos.
 
-- <img src="https://i.ibb.co/3NV8jcw/ezgif-com-video-to-gif-2.gif" width="1000">
+<img src="https://i.ibb.co/3NV8jcw/ezgif-com-video-to-gif-2.gif" width="1000">
 
 ## NodeRed Configuration:
 
