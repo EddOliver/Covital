@@ -4,6 +4,42 @@ Para nuestro dispositivo de cuidado de personal de salud IoT utilizamos una smar
 
 <img src="https://i.ibb.co/HzGH5Yt/Diagrqmiot.png" width="1000">
 
+## Configure your IBM Watson IoT Platform:
+
+### Configure your device:
+
+En nuestra plataforma de IBM Cloud creamos el siguiente recurso:
+
+<img src="https://i.ibb.co/SmvQ7rf/image.png" width="1000">
+
+Dentro de este recurso crearemos un nuevo device en el botón mostrado a continuación:
+
+<img src="https://i.ibb.co/NL3WZbX/image.png" width="1000">
+
+Para este ejemplo solo necesitamos que guardes el "Device Type" y el "Device ID".
+
+<img src="https://i.ibb.co/PzQ2KCZ/image.png" width="1000">
+
+Termina de crear el device presionando el boton de Next y Finish (No te preocupes por las credenciales del device, para este ejemplo no las vamos a utilizar).
+
+### Configure you App (Raspberry) Credential:
+
+Tenemos que crear una credencial de aplicacion, para ello nos vamos al siguiente de Apps y presionamos el siguiente boton:
+
+<img src="https://i.ibb.co/gR9Rf36/image.png" width="1000">
+
+Crea la app poniendo una descripcion en ella y presionando "Next":
+
+<img src="https://i.ibb.co/hWKhgQg/image.png" width="1000">
+
+Para evitar problemas de compatibilidad la configuraremos como se muestra a continuacion:
+
+<img src="https://i.ibb.co/Mn4w6TK/image.png" width="1000">
+
+Guarda los siguientes 3 valores para configurar correctamente la gateway:
+
+<img src="https://i.ibb.co/JBKsKYc/image.png" width="1000">
+
 ## Configure the Raspberry Pi Zero:
 
 Download the operating system of the Raspberry Pi Zero.
@@ -70,133 +106,50 @@ First, we will install the necessary libraries for our program to work.
 
 - For it to work we just have to input the following command.
 
-      sudo apt-get python3-pip
+      sudo apt-get python3-pip git -y
       pip3 install bluepy Crypto crc16 paho-mqtt
 
 - Ahora descarga la carpeta con nuestro programa.
 
        git clone https://github.com/EddOliver/Covital
 
+- Entramos a la carpeta Covital/RpiScript
 
+      cd Covital/RpiScript
 
+- Tendremos que configurar las credenciales de IBM IoT Platform en nuestro programa main.py, asi que abrimos el editor de la Rpi Zero con el siguiente comando.
 
+      sudo nano main.py
 
-# Inspiration and Introduction
+- Cambia los siguientes valores pos los tuyos en el inicio del codigo:
 
-Pandemias ha habido muchas a lo largo de la historia, en años recientes tal vez las que mas podamos recordar fueron las enfermedades como la gripe porcina AH1N1 (2009), el SARS (2002), el ébola (2014), el MERS (coronavirus, 2015) y ahora el Covid-19.
+      ORG = "XXXXXX"                   # YOUR ORG ID      
+      myauth="X-XXXXXX-XXXXXXXXXX"     # API key 
+      mysecret="XXXXXXXXXXXXXXXXX"     # Authentication Token
+      mydevice="YourDeviceName"        # Your Device Name
+      mydeviceid="YourDeviceId"        # Your Device ID
 
-Sin embargo, nunca tuvimos que vivir en estado de cuarentena global, nunca pensamos que sería tan veloz la instalación de la enfermedad en el mundo. En la actualidad, hay paises que incluso han generado politicas para el uso de armas de fuego contra la gente que no haga cuarentena, en muchos otros solo se promueve el aislamiento y el distanciamiento social como en mexico.
+- Para guardar los cambios en el editor presiona el comando "ctrl+o", Enter y luego "ctrl+x", enter
 
-Sin embargo a pesar de las constantes peticiones de Hugo López-Gatell Ramírez, assistant secretary of Prevention and Health Promotion, de quedarse en casa y no salir, no han sido suficientes para evitar el crecimiento acelerado de los casos de Covid-19 en mexico.
+- el siguiente paso es buscar la dirección MAC de nuestra MiBand3 con el siguiente comando, guardala.
 
-<img src="https://i.ibb.co/Qm6Xxcx/stay.png" width="1000">
+      sudo hcitool lescan
 
-En redes sociales sobre todo podemos encontrar casos como estos:
+<img src="https://i.ibb.co/1MfbWmZ/image.png" width="1000">
 
-- Gente realizando manualmente face masks sin saber su efectividad:
-<img src="https://i.ibb.co/H74qCGp/download-1.jpg" width="1000">
+- Para activar el codigo ejectuta el siguiente comando:
 
-- Personas que a pesar de la cuarentena van a comprar su pescado al mercado (alarmantemente desde el inicio de la pandemia este mercado en mexico ha tenido un aumento de clientes):
-<img src="https://i.ibb.co/jZrcRSW/Mercado-de-La-Viga-1.jpg" width="1000">
+      sudo python3 main.py YOURMAC
 
-- Gente realizando compras masivas de papel higienico:
-<img src="https://i.ibb.co/P1R0rdn/skynews-covid-19-coronavirus-4952333.jpg" width="1000">
+- Si todo funciona correctamente veras lo siguiente:
 
-- Y claro, gente realizando saqueos masivos de supermercados desde alimentos hasta electrodomesticos:
-<img src="https://i.ibb.co/XS6z0F5/unnamed.jpg" width="1000">
+<img src="https://i.ibb.co/cNjC3ry/image.png" width="1000">
 
-Desde este momento fue claro que uno de los principales problemas de Mexico ante el coronavirus fue la falta de informacion.
+- Una vez tenemos todo conectado, vamos a probar que todo este funcionando correctamente mandando algunos comandos.
 
-Para confirmar nuestra teoria decidimos realizar una encuesta de (insertar numero de personas de la encuesta) donde encontramos que el (insertar porcentaje) menciona que esta sufriendo una fuerte desinformacion sobre el coronavirus y como evitarlo, aunado a esto que no sabian donde encontrar fuentes fidedignas de informacion, por lo tanto concluimos lo siguiente:
+- <img src="https://i.ibb.co/jbmNXJd/ezgif-com-video-to-gif.gif" width="1000">
 
-- Las personas no saben donde consultar directamente informacion real sobre prevencion.
-- Las personas comparten mucha informacion falsa por redes sociales, generalmente conpiraciones politicas.
-- La mayoria de la gente no tiene una fuente real de los datos estadisticos del Covid-19, mayormente consultando varias fuentes para obetener los datos o directamente esperando diariamente a la hora de los noticieros en la television para oirlos.
+## NodeRed Configuration:
 
-<img src="https://i.ibb.co/r4ZRknx/image.png" width="300">
-
-La conclusion es que mexico necesita una plataforma que integre todos los puntos antes mencionados, generando una plataforma no solo de datos, sino de informacion importante de prevencion, sintomas, que hacer si te enfermas, etc.
-
-# Solution and What it does
-
-Creamos una plataforma que tiene 5 funciones principales:
-
-- Realizar un mapa de calor donde podemos observar de forma visual y cuantitativa los casos  positivos de COVID-19 en mexico por cada estado.
-
-<img src="https://i.ibb.co/v1h6sMK/image.png" width="1000">
-
-- Proveer informacion relevante para las personas como lo es:
-  - Correcto lavado de manos
-  - Cubrebocas: Tipos y uso correcto
-  - Fases y medidas preventivas en una pandemia
-  - Sintomas del Covid-19
-  - Que hacer si se sispecha de que se tienen los sintomas
-  - Fuentes oficiales para consultar informacion de calidad.
-  
-  <img src="https://i.ibb.co/zfNVNzV/image.png" width="1000">
-  
-- Sensado cuantitativo de la positividad del pais en general mediante el analisis en tiempo real de los tweets en todo el pais.
-
-  <img src="https://i.ibb.co/FbMqYRC/tweet-anal.png" width="1000">
-
-- Seccion de noticias con las ultimas noticias veridicas
-
-  <img src="https://i.ibb.co/Kyk5kYw/image.png" width="1000">
-
-- Seccion de noticias falsas donde se podamos mostrarle a la gente que es verdad y que no.
-
-  <img src="https://i.ibb.co/q54zLVg/image.png" width="1000">
-
-# How we built it
-
-<img src="https://i.ibb.co/Pr7gPcc/Diagrama.png" width="1000">
-
-# Toolchain and Cloudfoundry app:
-
-Dentro de la consola de IBM creamos una Toolchain cual nos permitiera desplegar una cloudfoundry app dentro de la cloud de ibm y a su vez nos permitiera llevar un control de versiones mediante git.
-
-<img src="https://i.ibb.co/FxDDN1Y/image.png" width="1000">
-
-Todo el desarrollo de la pagina se realizo mediante el framework Reactjs y se actualizaba mediante git en linea de comandos a IBM.
-
-<img src="https://i.ibb.co/qJSnQH5/image.png" width="1000">
-
-# API Gateway:
-
-Toda la integracion de servicios de la pagina web se realizo a travez de los servicios de API gateway para la peticion de datos de la pagina.
-
-<img src="https://i.ibb.co/PNYqnWB/image.png" width="1000">
-
-Cada una de las peticiones de a la api esta asociado a una action programada en NodeJs o Python.La llamada a la API esta protegida mediante una clave X-IBM-Client-Id.
-
-API Paths:
-<img src="https://i.ibb.co/9b4Lgqv/image.png" width="1000">
-API Mexico data request and processing:
-<img src="https://i.ibb.co/3kghvsP/image.png" width="1000">
-
-- /car : Webpage Carousel Data
-- /news : Last Covid-19 tweets
-- /mex : Last COVID-19 data in mexico.
-- /twitter-cos : Last polarity data for display.
-
-# Cloud Object Storage:
-
-Todos los documentos de la pagina como imagenes, iconos, etc... Fueron almacenados en un bucket COS configurado para tener datos archivos publicos.
-
-<img src="https://i.ibb.co/5nL7C82/image.png" width="1000">
-
-# Twitter Analysis:
-
-Para hacer el analisis de tweeter se utilizo la libreria Tweepy, para capturar todos los Twweets en tiempo real de mexico y analizarlos uno a uno con el servicio Tone Analyzer.
-
-Nota: El servicio de Tone Analyzer funciona con texto en ingles, asi que usamos una api de traduccion de texto Español a ingles como proprocesamiento.
-
-<img src="https://i.ibb.co/hMmczNx/image.png" width="1000">
-
-Este servicio esta corriendo en periodos de tiempo sobre Watson Studio en una Jupyter Notebook, cada que se analizan 100 tweets el algoritmo actualiza el arhivo json con los niveles de positividad guardado de COS.
-
-<img src="https://i.ibb.co/m6scxBS/image.png" width="1000">
-
-
-
+TU CULO.......digo tu parte XP
 
