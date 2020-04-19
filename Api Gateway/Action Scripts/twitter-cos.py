@@ -3,7 +3,8 @@ import ibm_boto3
 import json
 from ibm_botocore.client import Config, ClientError
 
-# Constants for IBM COS values
+# Constants for IBM COS values check https://github.com/EddOliver/Covital/blob/master/Twitter%20-%20Watson/README.md
+
 COS_ENDPOINT = "https://s3.us-south.cloud-object-storage.appdomain.cloud" # Current list avaiable at https://control.cloud-object-storage.cloud.ibm.com/v2/endpoints
 COS_API_KEY_ID = "############################################" # eg "W00YiRnLW4a3fTjMB-odB-2ySfTrFBIQQWanc--P3byk"
 COS_AUTH_ENDPOINT = "https://iam.cloud.ibm.com/identity/token"

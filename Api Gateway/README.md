@@ -37,6 +37,9 @@ Las acciones que creamos fueron las siguientes:
 - twitter-cos - (Python) - Obtiene el archivo con la información se polaridad emocional guardado en Cloud Object Storage, lo abre, lo decodifica y lo manda como response a la pagina web para desplegar el mapa de polaridad emocional.
 - news - (Python) - Manda la lista de tweets que se van a desplegar en la pagina web.
 
+NOTA: para la accion de twitter-cos debemos poner nuestras propias credenciales de COS, este proceso lo explicamos a detalle en el README de la carpeta Twitter - Watson.
+- https://github.com/EddOliver/Covital/blob/master/Twitter%20-%20Watson/README.md
+
 Para cada Action, pegaremos el código correspondiente y le daremos en guardar.
 
 <img src="https://i.ibb.co/27C5c5z/image.png" width="1000">

@@ -1,8 +1,39 @@
-# Covital
+# Twitter - Watson
 
-COVID19 information aggregator and data platform for Mexico, includes IoT risk assessing devices.
+## Requisitos previos:
 
-<img src="https://i.ibb.co/NW6Rmrk/desklogo.png" width="1000">
+Tener ya un recurso creado de Cloud Object Storage, puedes utilizar el que creamos anteriormente para la pagina web o utilizar uno totalmente independiente, lo que guardaremos sera un archivo json con el análisis de la polaridad de twitter. 
+
+<img src="https://i.ibb.co/b2GpF7N/image.png" width="1000">
+
+En nuestro caso utilizamos una COS independiente para guardar esos valores.
+
+<img src="https://i.ibb.co/bgWj64s/image.png" width="1000">
+
+Ahora tenemos que obtener unas credenciales para poder almacenar nuestros datos desde watson studio en nuestro COS y también poder abrirlos desde nuestra API. Asi que dentro de nuestro COS creamos una nueva credencial de acceso como se muestra en la imagen.
+
+<img src="https://i.ibb.co/s3Z7QfN/image.png" width="1000">
+
+La configuración de esta credencial sera la siguiente:
+
+<img src="https://i.ibb.co/BNwwhvr/image.png" width="1000">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Inspiration and Introduction
 
