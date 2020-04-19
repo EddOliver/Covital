@@ -2,7 +2,7 @@
 
 ## COS Creation and Credentials:
 
-Tener ya un recurso creado de Cloud Object Storage, puedes utilizar el que creamos anteriormente para la pagina web o utilizar uno totalmente independiente, lo que guardaremos sera un archivo json con el análisis de la polaridad de twitter. 
+Crea un recurso de Cloud Object Storage, puedes utilizar el que creamos anteriormente para la pagina web o utilizar uno totalmente independiente, lo que guardaremos sera un archivo json con el análisis de la polaridad de twitter. 
 
 <img src="https://i.ibb.co/b2GpF7N/image.png" width="1000">
 
@@ -70,5 +70,67 @@ Your application is under review, and you will receive a notification with the r
 
 <img src="https://dpd7q0cxjbvq3.cloudfront.net/images/autotweet-documentation/twitter/twitterdev/twitterdev-tutorial-17.png" width="1000">
 
+Despues de haber creado la cuenta en la seccion de Apps, podemos crear una App la cual nos provea las credenciales necesarias para acceder a la API de twitter:
+
+<img src="https://i.ibb.co/4SVRpLH/image.png" width="1000">
+
+Dentro de la app podremos ver las 4 credenciales que necesitamos para que funcione nuestro codigo de watson studio.
+
+<img src="https://i.ibb.co/c1njSv6/image.png" width="1000">
+
+## Tone Analyzer API:
+
+Creamos el recurso de Tone Analyzer.
+
+<img src="https://i.ibb.co/c1njSv6/image.png" width="1000">
+
+Inmediatamente entrando al recurso tendremos las credenciales que usaremos.
+
+<img src="https://i.ibb.co/BzBcnq7/image.png" width="1000">
+
 ## Watson Studio, creation and Setup:
+
+Creamos un recurso de Watson Studio desde el catalogo.
+
+<img src="https://i.ibb.co/fDFNX89/image.png" width="1000">
+
+Entramos a la interfaz de Watson Studio
+
+<img src="https://i.ibb.co/TYwbLWK/image.png" width="1000">
+
+Creamos un nuevo proyecto de watson studio como se muestra en la imagen.
+
+<img src="https://i.ibb.co/fdzMdgL/image.png" width="1000">
+
+Presionamos Create and empty project
+
+<img src="https://i.ibb.co/vkn1GH4/image.png" width="1000">
+
+Escribimos un nombre, una descripción y presionamos Create.
+
+<img src="https://i.ibb.co/nw7t2TG/image.png" width="1000">
+
+Presionamos el boton "Add to project"
+
+<img src="https://i.ibb.co/F5qmqw2/image.png" width="1000">
+
+Seleccionamos la opción de "Notebook"
+
+<img src="https://i.ibb.co/PCy8hQ8/image.png" width="1000">
+
+Subimos el archivo code.ipynb de esta carpeta aqui:
+
+<img src="https://i.ibb.co/gmGT0my/image.png" width="1000">
+
+
+
+
+
+
+
+
+
+
+
+
 
