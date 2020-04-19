@@ -88,6 +88,16 @@ Inmediatamente entrando al recurso tendremos las credenciales que usaremos.
 
 <img src="https://i.ibb.co/BzBcnq7/image.png" width="1000">
 
+Nota: el siguiente paso es opcional, debido a que Tone Analyzer solo funciona para textos que estén escritos en frances o ingles, debido a que los tweets en mexico están escritos en español tendremos que usar alguna API que nos permita realizar un translate al ingles, si no requieres traducir el texto al ingles pasa al siguiente punto, en nuestro caso usamos lo siguiente.
+
+## Optional: Translate API:
+
+Para realizar el Translate de los tweets al ingles, utilizamos una API de traduccion gratuita llamada Translate API de yandex.
+
+https://tech.yandex.com/translate/
+
+https://i.ibb.co/JpJp5CJ/image.png
+
 ## Watson Studio, creation and Setup:
 
 Creamos un recurso de Watson Studio desde el catalogo.
@@ -118,19 +128,22 @@ Seleccionamos la opción de "Notebook"
 
 <img src="https://i.ibb.co/PCy8hQ8/image.png" width="1000">
 
-Subimos el archivo code.ipynb de esta carpeta aqui:
+Subimos el archivo code.ipynb de esta en la carpeta "WatsonCode":
 
 <img src="https://i.ibb.co/gmGT0my/image.png" width="1000">
 
+Una vez abras el código en Watson Studio sustituye tus credenciales de COS en la primera parte del código.
 
+<img src="https://i.ibb.co/prcPT7p/image.png" width="1000">
 
+Ejecuta el código una vez para mostrar los Buckets que tengas disponibles.
 
+<img src="https://i.ibb.co/YNQsjCK/image.png" width="1000">
 
+Ahora ponemos nuestras credenciales en el la siguiente parte del código.
 
+<img src="https://i.ibb.co/nQKK5g7/image.png" width="1000">
 
+Los tweets apareceran con un 1 al final si es positivo y un 0 si es negativo, a su vez cada 100 tweets realizaremos una copia del archivo en nuestro COS.
 
-
-
-
-
-
+<img src="https://i.ibb.co/377Xb3x/image.png" width="1000">
