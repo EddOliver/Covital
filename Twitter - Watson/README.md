@@ -147,3 +147,7 @@ Ahora ponemos nuestras credenciales en el la siguiente parte del código.
 Los tweets apareceran con un 1 al final si es positivo y un 0 si es negativo, a su vez cada 100 tweets realizaremos una copia del archivo en nuestro COS.
 
 <img src="https://i.ibb.co/377Xb3x/image.png" width="1000">
+
+El codigo ejecuta lo siguiente:
+
+<img src="https://i.ibb.co/H2jRpx9/Untitled-Diagram-1.png" width="1000">
