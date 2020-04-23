@@ -106,7 +106,7 @@ First, we will install the necessary libraries for our program to work.
 
 - For it to work we just have to input the following command.
 
-      sudo apt-get python3-pip git -y
+      sudo apt-get install python3-pip git -y
       pip3 install bluepy Crypto crc16 paho-mqtt
 
 - Ahora descarga la carpeta con nuestro programa.
