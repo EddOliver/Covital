@@ -2,23 +2,23 @@
 
 ## COS Creation and Credentials:
 
-Crea un recurso de Cloud Object Storage, puedes utilizar el que creamos anteriormente para la pagina web o utilizar uno totalmente independiente, lo que guardaremos sera un archivo json con el análisis de la polaridad de twitter. 
+Create a Cloud Object Storage resource, you can use the one we created previously for the website or use a totally independent one, what we will save will be a json file with the analysis of twitter's polarity.
 
 <img src="https://i.ibb.co/b2GpF7N/image.png" width="1000">
 
-En nuestro caso utilizamos una COS independiente para guardar esos valores.
+In our case we use a separate COS to store those values.
 
 <img src="https://i.ibb.co/bgWj64s/image.png" width="1000">
 
-Ahora tenemos que obtener unas credenciales para poder almacenar nuestros datos desde watson studio en nuestro COS y también poder abrirlos desde nuestra API. Asi que dentro de nuestro COS creamos una nueva credencial de acceso como se muestra en la imagen.
+Now we have to obtain some credentials to be able to store our data from watson studio in our COS and also to be able to open them from our API. So within our COS we create a new access credential as shown in the image.
 
 <img src="https://i.ibb.co/s3Z7QfN/image.png" width="1000">
 
-La configuración de esta credencial sera la siguiente:
+The configuration of this credential will be as follows:
 
 <img src="https://i.ibb.co/BNwwhvr/image.png" width="1000">
 
-La credencial tiene esta estructura:
+The credential has this structure:
 
     {
       "apikey": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
@@ -30,7 +30,7 @@ La credencial tiene esta estructura:
       "resource_instance_id": "crn:v1:bluemix:public:cloud-object-storage:global:a/XXXXXXXXXXXXXXXXXX:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX::"
     }
 
-Los datos que necesitamos son los siguientes:
+The data we need are the following:
 
 "apikey": **"XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"**
 
@@ -38,11 +38,12 @@ Los datos que necesitamos son los siguientes:
   
 "resource_instance_id":**"crn:v1:bluemix:public:cloud-object-storage:global:a/XXXXXXXXXX:XXXXXXXXXXXXXXXXXXXXXXXXXXX::"**
 
-Este proceso lo haremos 2 veces para tener la credencial de Watson Studio y la de la Action **twitter-cos** de la Api gateway.
+We will do this process two times to have the Watson Studio credential and that of the Action twitter-cos of the Api gateway.
+
 
 ## Twitter Developer API:
 
-Para obtener una API key para utilizar los recursos de Twitter, deberemos primero aplicar a una cuenta de twitter developer en el siguiente enlace:
+To obtain an API key to use Twitter resources, we must first apply to a twitter developer account at the following link:
 
 https://developer.twitter.com/en/apply-for-access
 
@@ -70,29 +71,29 @@ Your application is under review, and you will receive a notification with the r
 
 <img src="https://dpd7q0cxjbvq3.cloudfront.net/images/autotweet-documentation/twitter/twitterdev/twitterdev-tutorial-17.png" width="1000">
 
-Despues de haber creado la cuenta en la seccion de Apps, podemos crear una App la cual nos provea las credenciales necesarias para acceder a la API de twitter:
+After creating the account in the Apps section, we can create an App which provides us with the necessary credentials to access the twitter API:
 
 <img src="https://i.ibb.co/4SVRpLH/image.png" width="1000">
 
-Dentro de la app podremos ver las 4 credenciales que necesitamos para que funcione nuestro codigo de watson studio.
+Inside the app we will be able to see the 4 credentials that we need to make our watson studio code work.
 
 <img src="https://i.ibb.co/c1njSv6/image.png" width="1000">
 
 ## Tone Analyzer API:
 
-Creamos el recurso de Tone Analyzer.
+Create the Tone Analyzer resource.
 
 <img src="https://i.ibb.co/c1njSv6/image.png" width="1000">
 
-Inmediatamente entrando al recurso tendremos las credenciales que usaremos.
+Immediately after entering the resource we will have the credentials that we will need and use.
 
 <img src="https://i.ibb.co/BzBcnq7/image.png" width="1000">
 
-Nota: el siguiente paso es opcional, debido a que Tone Analyzer solo funciona para textos que estén escritos en frances o ingles, debido a que los tweets en mexico están escritos en español tendremos que usar alguna API que nos permita realizar un translate al ingles, si no requieres traducir el texto al ingles pasa al siguiente punto, en nuestro caso usamos lo siguiente.
+Note: the next step is optional, because Tone Analyzer only works for texts that are written in French or English, because tweets in Mexico are written in Spanish, we will have to use some API that allows us to translate into English, If you do not need to translate the text into English, go to the next point, in our case we use the following.
 
 ## Optional: Translate API:
 
-Para realizar el Translate de los tweets al ingles, utilizamos una API de traduccion gratuita llamada Translate API de yandex.
+To translate the tweets into English, we use a free translation API called yandex Translate API.
 
 https://tech.yandex.com/translate/
 
@@ -100,54 +101,55 @@ https://i.ibb.co/JpJp5CJ/image.png
 
 ## Watson Studio, creation and Setup:
 
-Creamos un recurso de Watson Studio desde el catalogo.
+We create a Watson Studio resource from the catalog.
 
 <img src="https://i.ibb.co/fDFNX89/image.png" width="1000">
 
-Entramos a la interfaz de Watson Studio
+We enter the interface of Watson Studio
 
 <img src="https://i.ibb.co/TYwbLWK/image.png" width="1000">
 
-Creamos un nuevo proyecto de watson studio como se muestra en la imagen.
+Create a new watson studio project as shown in the image.
 
 <img src="https://i.ibb.co/fdzMdgL/image.png" width="1000">
 
-Presionamos Create and empty project
+Press Create and empty project
 
 <img src="https://i.ibb.co/vkn1GH4/image.png" width="1000">
 
-Escribimos un nombre, una descripción y presionamos Create.
+We write a name, a description and press Create.
 
 <img src="https://i.ibb.co/nw7t2TG/image.png" width="1000">
 
-Presionamos el boton "Add to project"
+Press "Add to project"
 
 <img src="https://i.ibb.co/F5qmqw2/image.png" width="1000">
 
-Seleccionamos la opción de "Notebook"
+Select the "Notebook option"
 
 <img src="https://i.ibb.co/PCy8hQ8/image.png" width="1000">
 
-Subimos el archivo code.ipynb de esta en la carpeta "WatsonCode":
+We upload the code.ipynb file of this in the "WatsonCode" folder:
 
 <img src="https://i.ibb.co/gmGT0my/image.png" width="1000">
 
-Una vez abras el código en Watson Studio sustituye tus credenciales de COS en la primera parte del código.
+Once you open the code in Watson Studio replace your COS credentials in the first part of the code.
 
 <img src="https://i.ibb.co/prcPT7p/image.png" width="1000">
 
-Ejecuta el código una vez para mostrar los Buckets que tengas disponibles.
+Run the code once to display the buckets you have available.
 
 <img src="https://i.ibb.co/YNQsjCK/image.png" width="1000">
 
-Ahora ponemos nuestras credenciales en el la siguiente parte del código.
+Now we put our credentials in the next part of the code.
 
 <img src="https://i.ibb.co/nQKK5g7/image.png" width="1000">
 
-Los tweets apareceran con un 1 al final si es positivo y un 0 si es negativo, a su vez cada 100 tweets realizaremos una copia del archivo en nuestro COS.
+The tweets will appear with a 1 at the end if it is positive and a 0 if it is negative, in turn every 100 tweets we will make a copy of the file in our COS.
+
 
 <img src="https://i.ibb.co/377Xb3x/image.png" width="1000">
 
-El codigo ejecuta lo siguiente:
+The code executes the following:
 
 <img src="https://i.ibb.co/H2jRpx9/Untitled-Diagram-1.png" width="1000">
