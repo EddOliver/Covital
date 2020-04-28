@@ -30,6 +30,14 @@ These kinds of measures have shown to decrease considerably the risk of these pr
  
 When we have several of these devices, we will be able to perform better analytics and even ML models, which we will incorporate into the main platform and the Emotions and Positivity map. This solution has the potential of incorporating the whole gambit of information about the current pandemic and will help us prepare for the future one. This of course employing IBM’s cloud technology, IoT and Machine Learning like it was never done before. And it might help as a model for developing countries to fight pandemics.
 
+# Team
+
+#### 3 Biomedical Engineers with experience developing IoT and hardware solutions.
+
+https://www.linkedin.com/in/luis-eduardo-arevalo-oliver-989703122/
+https://www.linkedin.com/in/alejandro-s%C3%A1nchez-guti%C3%A9rrez-11105a157/
+https://www.linkedin.com/in/victor-alonso-altamirano-izquierdo-311437137/
+
 
 # Our commitment
 
