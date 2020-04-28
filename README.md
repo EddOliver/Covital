@@ -1,6 +1,6 @@
 <img src="https://i.ibb.co/NW6Rmrk/desklogo.png" width="600">
 
-COVID19 information aggregator and data platform for Mexico, includes IoT risk assessing devices for medical professionals.
+## COVID19 information aggregator and data platform for Mexico, includes IoT risk assessing devices for medical professionals.
 
 # Solution summary
 
@@ -13,6 +13,17 @@ COVITAL's solutions consists of:
    - Instructions and links regarding self-care during the pandemic
    - A machine learning Powered Emotional Positivity Map
    - A service that separates the real news from the fake news.
+   
+2. An IoT Risk assesing platform for Medical Professionals that include two main devices:
+
+   - Heart Rate and Step tracking band with Gateway [Link]()
+   - Clothing embedded device that tracks Temperature, Air quality, Movement, Pressure and more.
+   
+The IoT part of Our solution tracks, analyses and gives recommendations to Medical professionals in the front lines via a web app developed with IBM ioT and Node-RED. It includes a wearable band that we integrated with a set of sensors that can be embedded easily into clothing. Whenever the doctor or frontliner has performed a big number of steps or the telemetry shows that that he has over stretched via temperature, movement or other, it will send an alarm, notification and recommendations to stop and take some rest.
+These kinds of measures have shown to decrease considerably the risk of these professionals. (1)
+ 
+Whenever we have several of these devices we will be able to perform better analytics and even ML models, which we will incorporate into the main platform and the Emotions and Positivity map. This solution has the potential of incorporating the whole gambit of information about the current pandemic and will help us prepare for the future one. This of course employing IBM’s cloud technology, IoT and Machine Learning like it was never done before. And it might help as a model for developing countries to fight pandemics.
+
 
 
 
@@ -148,5 +159,6 @@ Este servicio esta corriendo en periodos de tiempo sobre Watson Studio en una Ju
 <img src="https://i.ibb.co/sVhqMJG/Screen-Shot-2020-04-27-at-16-48-44.png" width="1000">
 
 
+# References
 
-
+1. https://www.theverge.com/2020/3/5/21166088/coronavirus-covid-19-protection-doctors-nurses-health-workers-risk
