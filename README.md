@@ -4,7 +4,7 @@ COVID19 information aggregator and data platform for Mexico, includes IoT risk a
 
 # Solution summary
 
-
+<img src="https://i.ibb.co/rZGghY2/diagrama.png">
 
 
 
@@ -12,7 +12,8 @@ COVID19 information aggregator and data platform for Mexico, includes IoT risk a
 
 1.[Inspiration and Introduction](https://github.com/EddOliver/Covital/blob/master/README.md#inspiration-and-introduction)
 
-2.https://github.com/EddOliver/Covital/blob/master/README.md#solution-and-what-it-does
+2.[Solution](https://github.com/EddOliver/Covital/blob/master/README.md#solution-and-what-it-does)
+
 3.
 4.
 5.
@@ -54,7 +55,7 @@ Para confirmar nuestra teoria decidimos realizar una encuesta de (insertar numer
 
 La conclusion es que mexico necesita una plataforma que integre todos los puntos antes mencionados, generando una plataforma no solo de datos, sino de informacion importante de prevencion, sintomas, que hacer si te enfermas, etc.
 
-# Solution and What it does
+# Solution 
 
 Creamos una plataforma que tiene 5 funciones principales:
 
