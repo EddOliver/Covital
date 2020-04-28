@@ -12,11 +12,12 @@ COVID19 information aggregator and data platform for Mexico, includes IoT risk a
 
 1. [Inspiration and Introduction](https://github.com/EddOliver/Covital/blob/master/README.md#inspiration-and-introduction)
 2. [Solution](https://github.com/EddOliver/Covital/blob/master/README.md#solution-and-what-it-does)
-
-3.
-4.
-5.
-
+3. [How we built it](https://github.com/EddOliver/Covital/blob/master/README.md#how-we-built-it)
+4. [Toolchain](https://github.com/EddOliver/Covital/blob/master/README.md#toolchain-and-cloudfoundry-app)
+5. [API Gateway](https://github.com/EddOliver/Covital/blob/master/README.md#api-gateway)
+6. [Cloud Object Storage](https://github.com/EddOliver/Covital/blob/master/README.md#cloud-object-storage)
+7. [Twitter Analysis](https://github.com/EddOliver/Covital/blob/master/README.md#twitter-analysis)
+8. [Updated views report](https://github.com/EddOliver/Covital/blob/master/README.md#views-report-04272020)
 
 # Inspiration and Introduction
 
