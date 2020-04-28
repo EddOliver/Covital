@@ -3,7 +3,7 @@ import json
 import requests
 
 def main(dict):
-    url = "https://ncov.sinave.gob.mx/Mapa.aspx/Grafica22"
+    url = "https://covid19.sinave.gob.mx/Log.aspx/Grafica22"
     payload = {}
     headers = {
     'Content-Type': 'application/json',
