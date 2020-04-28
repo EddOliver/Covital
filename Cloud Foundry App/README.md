@@ -1,28 +1,28 @@
 # Cloud Foundry App Setup:
 
-Lo primero que tenemos que crear es un recurso de desarrollo de aplicaciones llamado toolchain.
+The first thing we have to create is an application development resource called toolchain.
 
 <img src="https://i.ibb.co/561gFCy/image.png" width="1000">
 
-Para nuestro caso ya que es una webapp desarrollada en ReactJS, usaremos la siguiente opcion.
+In our case, since it is a webapp developed in ReactJS, we will use the following option.
 
 <img src="https://i.ibb.co/mqwSGct/image.png" width="1000">
 
-Nosotros le agregamos la compatibilidad con linea de comandos Git para poder realizar commits desde el desarrollo local directamente a nuestra Cloud Foundry app.
+We added Git command line support to be able to commit from local development directly to our Cloud Foundry app.
 
 <img src="https://i.ibb.co/0ZPKcnr/image.png" width="1000">
 
-Todos los archivos de nuestra plataforma los subiremos mediante commits y podremos verlos con la herramienta Eclipse Orion Web IDE.
+All the files of our platform will be uploaded by commits and we will be able to see them with the Eclipse Orion Web IDE tool.
 
 <img src="https://i.ibb.co/YcjgfbZ/image.png.png" width="1000">
 
-Aqui una muestra de los archivos que tenemos en nuestra app y como el estatus de la app esta puesta como running: normal
+Here is a sample of the files that we have in our app and how the status of the app is set to running: normal
 
 <img src="https://i.ibb.co/cFgkCRj/image.png" width="1000">
 
-Independientemente de la app que subas, es necesario que tengas el archivo manifiest.yml que adjuntamos en esta carpeta para que tu app haga un correcto deploy.
+Regardless of the app you upload, you need to have the manifest.yml file that we attach in this folder for your app to do a proper deploy.
 
-Todo el control de versiones de nuestra app se lleva mediante el sistema que nos proporciona la toolchain de git.
+All version control of our app is carried out through the system provided by the git toolchain.
 
 <img src="https://i.ibb.co/2g6KZRQ/image.png" width="1000">
 
@@ -30,15 +30,15 @@ Todo el control de versiones de nuestra app se lleva mediante el sistema que nos
 
 https://main.covital.com.mx/
 
-Nota: Los archivos de nuestra pagina web estan en la carpeta "webpage".
+Note: The files on our website are in the "webpage" folder.
 
-Nuestra pagina web cuenta con los siguientes elementos:
+Our website has the following elements:
 
-- Header de información de contacto y nombre de la app:
+- Header of contact information and app name:
 
 <img src="https://i.ibb.co/P9Ct4GZ/image.png" width="1000">
 
-- Mapa de confirmados de COVID-19 en Mexico, los datos del mapa se obtienen de la API del la secretaria de salud de mexico y esta esta api embebida dentro de nuestra propia API de IBM API Gateway ya que les realizamos un pre-procesamiento para facilitar su uso en la pagina, en el lado derecho tenemos un visualizador de datos por estado, el cual a su vez ayuda mucho en la version movil para facilitar la visualización y claro no podia faltar nuestra gráfica de el crecimiento de los contagiados a lo largo del tiempo, en nuestro caso la gráfica empieza desde 02/27/2020.
+- Confirmed map of COVID-19 in Mexico, the map data is obtained from the API of the Secretary of Health of Mexico and this is embedded within our own API of IBM API Gateway since we perform a pre-processing to facilitate its use on the page, on the right side we have a data viewer by state, which in turn helps a lot in the mobile version to facilitate the visualization and of course our graph of the growth of the infected throughout the year could not be missing time, in our case the graph starts from 02/27/2020.
 
 <img src="https://i.ibb.co/vcJhDHZ/image.png" width="1000">
 
@@ -53,16 +53,25 @@ Nuestra pagina web cuenta con los siguientes elementos:
 
 <img src="https://i.ibb.co/vxkCRTS/image.png" width="1000">
 
-- En esta seccion tenemos un análisis de la positividad de cada uno de los estados realizando procesamiento en tiempo real de los tweets que realiza la gente y analizándolos mediante el resource de IBM llamado Tone Analyzer, este proceso se explicara en detalle en la sección "Twitter - Watson", los datos de esta seccion son llamados por API desde API Gateway:
+- In this section we have an information box where we show the following topics as general information for people, the data in this section is called by API from API Gateway:
 
-Para facilitar la visualización de el estado representamos el porcentaje con un emoji y el numero de porcentaje abajo.
+Correct hand washing
+Mouthguards: Types and correct use
+Phases and preventive measures during a pandemic
+Symptoms
+What to do if you suspect you have COVID-19?
+Official sources
+
+- In this section we have an analysis of the positivity of each of the states, real-time processing of tweets made by people and analyzing them using the IBM resource called Tone Analyzer, this process will be explained in detail in the section "Twitter - Watson ", the data in this section is called by API from API Gateway:
+
+To facilitate the visualization of the state, we represent the percentage with an emoji and the percentage number below.
 
 <img src="https://i.ibb.co/kBKsXKb/image.png" width="1000">
 
-- Seccion de noticias que recopila los 3 ultimos tweets de nuestra cuenta de noticias https://twitter.com/ICovital.
+- News section that collects the last 3 tweets of our news account https://twitter.com/ICovital.
 
 <img src="https://i.ibb.co/8c789XL/image.png" width="1000">
 
-- Seccion de noticias falsas recopila los 3 ultimos tweets de nuestra cuenta de noticias falsas sobre el COVID-19 https://twitter.com/fcovid20.
+- Fake News Section collects the last 3 tweets from our COVID-19 fake news account https://twitter.com/fcovid20.
 
 <img src="https://i.ibb.co/qmKg27p/image.png" width="1000">
