@@ -10,8 +10,8 @@ COVID19 information aggregator and data platform for Mexico, includes IoT risk a
 
 # Our commitment
 
-1.
-2.
+1.[Inspiration and Introduction](https://github.com/EddOliver/Covital/blob/master/README.md#inspiration-and-introduction)
+2.https://github.com/EddOliver/Covital/blob/master/README.md#solution-and-what-it-does
 3.
 4.
 5.
