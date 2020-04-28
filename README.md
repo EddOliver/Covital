@@ -94,9 +94,9 @@ Apart from that there's the problem of overworked Medical professionals as they 
 
 # Solution 
 
-We create a platform that has 5 main functions:
+We created a platform that has 5 main functions:
 
-- Make a heat map where we can visually and quantitatively observe the positive cases of COVID-19 in Mexico by each state.
+- Show a heat map where we can visually and quantitatively observe the positive cases of COVID-19 in Mexico by each state.
 
 <img src="https://i.ibb.co/v1h6sMK/image.png" width="1000">
 
