@@ -1,6 +1,6 @@
-<img src="https://i.ibb.co/NW6Rmrk/desklogo.png" width="700">
+<img src="https://i.ibb.co/NW6Rmrk/desklogo.png" width="600">
 
-COVID19 information aggregator and data platform for Mexico, includes IoT risk assessing devices.
+COVID19 information aggregator and data platform for Mexico, includes IoT risk assessing devices for medical professionals.
 
 # Inspiration and Introduction
 
