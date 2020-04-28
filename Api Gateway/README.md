@@ -1,84 +1,84 @@
 # Api Gateway Setup:
 
-En esta seccion mostrare como es el proceso de configuración de nuestra api gateway. 
+In this section I will show how is the configuration process of our api gateway.
 
 <img src="https://i.ibb.co/D749zy3/APIDiagram.png" width="1000">
 
 # API Creation:
 
-Primero buscamos el servicio de API Gateway y cremos el recurso.
+We first looked for the API Gateway service and created the resource.
 
 <img src="https://i.ibb.co/jyQCNK0/image.png" width="1000">
 
-Para nuestra apicacion decidimos crear una API gateway basada en Cloud Functions, debido a que hibamos a requeria integrar el servicio de Cloud Object Storage y preprocesamiento en Python.
+For our application we decided to create an API gateway based on Cloud Functions, because we had to integrate the Cloud Object Storage service and preprocessing in Python.
 
 <img src="https://i.ibb.co/rytWDmC/image.png" width="1000">
 
-Recomiendo revisar un poco todos estos menus para que te familiarices con ellos, sin embargo como primera tarea vamos a crear las acciones que va a ejecutar nuestra API.
+I recommend reviewing all these menus a little so that you become familiar with them, however as the first task we are going to create the actions that our API will execute.
 
 <img src="https://i.ibb.co/vxG6yKm/image.png" width="1000">
 
-En este caso el proceso para crear las 4 Actions sera el mismo, asi que presionamos en boton "Create" 
+In this case the process to create the 4 Actions will be the same, so we press the "Create" button
 
 <img src="https://i.ibb.co/RQNF1pg/image.png" width="1000">
 
-Ya que no usaremos "Actions" con ningún paquete adicional de python o nodejs, simplemente presionaremos el botón de "Create Action"
+Since we will not use "Actions" with any additional python or nodejs packages, we will simply press the "Create Action" button
 
 <img src="https://i.ibb.co/K5WGQ8y/image.png" width="1000">
 
-En cada una de las Actions le pondremos el nombre correspondiente a cada accion y selecionaremos el Runtime que requiramos en nuestro caso utilizamos Python y NodeJS.
+In each of the Actions we will put the corresponding name to each action and we will select the Runtime that we require in our case we use Python and NodeJS.
 
 <img src="https://i.ibb.co/Y34p7nW/image.png" width="1000">
 
-Las acciones que creamos fueron las siguientes:
+The actions we created were as follows:
 
-- carousel - (NodeJS) - Proporciona la información de los carruseles de nuestra pagina web.
-- mexinfo - (Python) - Proporciona la información de patentes confirmados de Covid-19 en Mexico para ser expuesta en la pagina web, API de la secretaria de salud de Mexico.
-- twitter-cos - (Python) - Obtiene el archivo con la información se polaridad emocional guardado en Cloud Object Storage, lo abre, lo decodifica y lo manda como response a la pagina web para desplegar el mapa de polaridad emocional.
-- news - (Python) - Manda la lista de tweets que se van a desplegar en la pagina web.
+- carousel - (NodeJS) - Provides the information of the carousels of our website.
+- mexinfo - (Python) - Provides the information of confirmed patents of Covid-19 in Mexico to be exposed on the website, API of the Mexican Secretary of Health.
+- twitter-cos - (Python) - Gets the file with the emotional polarity information stored in Cloud Object Storage, open it, decode it and send it as a response to the web page to display the emotional polarity map.
+- news - (Python) - Send the list of tweets to be displayed on the website.
 
-NOTA: para la accion de twitter-cos debemos poner nuestras propias credenciales de COS, este proceso lo explicamos a detalle en el README de la carpeta Twitter - Watson.
+NOTE: for the twitter-cos action we must put our own COS credentials, this process is explained in detail in the README of the Twitter - Watson folder.
 - https://github.com/EddOliver/Covital/blob/master/Twitter%20-%20Watson/README.md
 
-Para cada Action, pegaremos el código correspondiente y le daremos en guardar.
+For each Action, we will paste the corresponding code and click Save.
 
 <img src="https://i.ibb.co/27C5c5z/image.png" width="1000">
 
-Ahora nos vamos a la seccion de API para crear nuestra API.
+Now we go to the API section to create our API.
 
 <img src="https://i.ibb.co/TkC41Gq/image.png" width="1000">
 
-Primero vamos a nombrar a nuestra API y le añadiremos las acciones con el botón de Create Operation.
+First we are going to name our API and add the actions with the Create Operation button.
 
 <img src="https://i.ibb.co/Jnc5sWJ/image.png" width="1000">
 
-Como ejemplo configurare la acción de news.
+As an example I will configure the news action.
 
 <img src="https://i.ibb.co/XDnHCVS/image.png" width="1000">
 
-Para mayor seguridad de la Api le agregamos una Api Key.
+For more security of the Api we add an Api Key.
 
 <img src="https://i.ibb.co/jhX1zws/image.png" width="1000">
 
-Todo lo demas lo dejamos tal como esta y seleccionamos el boton del fondo que dice Create (ya por default esta activado el CORS, dejalo asi para poder llamar la Api desde tu pagina web).
+Everything else we leave as it is and select the button in the background that says Create (by default CORS is activated, leave it like this to be able to call the Api from your website).
 
 <img src="https://i.ibb.co/XJ3hW6S/image.png" width="1000">
 
-Una vez hecho esto entraremos a la Api y a la opcion API Explorer.
+Once this is done we will enter the Api and the API Explorer option.
 
-Nota: la apikey para llamar a la API esta en el boton que dice Sharing and Keys
+Note: the apikey to call the API is in the button that says Sharing and Keys
 
 <img src="https://i.ibb.co/8mgJT5S/image.png" width="1000">
 
-Podemos observar dentro de este menu una seccion de codigo para probar que nuestra API funciona.
+We can see within this menu a section of code to prove that our API works.
 
 <img src="https://i.ibb.co/GQjkfGY/image.png" width="1000">
 
-En mi caso hice la prueba de mi API en el programa Postman y aqui un screenshot de como esta funcionando.
+In my case I did the test of my API in the Postman program and here a screenshot of how it is working.
 
 <img src="https://i.ibb.co/Lv0197s/image.png" width="1000">
 
-Todas las llamadas de estas API a la pagina web se realizaron con el modulo request para ReactJS.
+All calls from these APIs to the website were made with the request module for ReactJS.
 
     var request = require('request');
     var options = {
