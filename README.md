@@ -1,6 +1,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [<img src="https://img.shields.io/badge/View-Website-blue">](https://main.covital.com.mx)
 
-<img src="https://i.ibb.co/prw3mYb/Main-image.png" width="600">
+<img src="https://i.ibb.co/ZzmpyX1/COVITAL.png" width="600">
 
 ### COVID19 information aggregator and data platform for Mexico, includes IoT risk assessing devices for medical professionals.
 
