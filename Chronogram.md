@@ -55,6 +55,7 @@ On March 28, Governor Omar Fayad of Hidalgo announced in a tweet that he tested 
 In the early morning of March 31, 50,000 test kits, 100,000 masks and five ventilators (donated by Jack Ma and the Alibaba Foundation of China) arrived at the Mexico City International Airport. Nurses in Jalisco have been forced to get off public transportation and physically attacked by people fearful of COVID-19. Medical workers there and elsewhere have been advised not to wear their uniforms outside the hospital. The same day the total confirmed cases of COVID-19 reached 1215 and one more death was reported. The government of Mexico City announced that 90% of the businesses in Mexico City would have to close because of the national health emergency declaration of the day before. In Austin, Texas, Public Health officials started investigating an apparent cluster of COVID-19 after 28 of 70 “spring breakers” (students at the University of Texas at Austin) tested positive following their trip to Cabo San Lucas, Baja California Sur, in early March. The Mexican Social Security Institute (IMSS) in Monclova, Coahuila, reported that 29 medical and nursing staff tested positive for COVID-19. No patients have been infected.
 
 *Wikipedia
+Most important parts of:https://en.wikipedia.org/wiki/2020_coronavirus_pandemic_in_Mexico
 
 ## March 29
 
