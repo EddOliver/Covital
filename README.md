@@ -23,7 +23,7 @@ It is an IBM cloud foundry application that makes use of several of IBM’s clou
 #### 2. An IoT Risk assesing platform for Medical Professionals that include two main devices:
 
    - Heart Rate and Step tracking band with Gateway [Link](https://github.com/EddOliver/Covital/tree/master/Hardware%20Gateway)
-   - Clothing embedded device that tracks Temperature, Air quality, Movement, Pressure and more.
+   - Clothing embedded device that tracks Temperature, Air quality, Movement, Pressure and more. [Node Red](https://github.com/EddOliver/Covital/tree/master/Node%20RED%20flow) and [Documentation](https://github.com/EddOliver/Covital/tree/master/RSL10%20Sense%20and%20control)
    
 The IoT part of Our solution tracks, analyses and gives recommendations to Medical professionals in the front lines via a web app developed with IBM ioT and Node-RED. It includes a wearable band that we integrated with a set of sensors that can be embedded easily into clothing. Whenever the doctor or frontliner has performed a big number of steps or the telemetry shows that that he has over stretched via temperature, movement or other, it will send an alarm, notification and recommendations to stop and take some rest.
 These kinds of measures have shown to decrease considerably the risk of these professionals. (1)
