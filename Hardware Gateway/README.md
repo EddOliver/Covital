@@ -150,9 +150,5 @@ First, we will install the necessary libraries for our program to work.
 
 <img src="https://i.ibb.co/3NV8jcw/ezgif-com-video-to-gif-2.gif" width="1000">
 
-## NodeRed Configuration:
 
-I Remmit you to this guide:
-
-https://github.com/EddOliver/AggroFox/tree/master/IBM%20cloud%20AggroFox
 
