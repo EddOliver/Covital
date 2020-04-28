@@ -1,4 +1,4 @@
-<img src="https://i.ibb.co/NW6Rmrk/desklogo.png" width="500">
+<img src="https://i.ibb.co/NW6Rmrk/desklogo.png" width="700">
 
 COVID19 information aggregator and data platform for Mexico, includes IoT risk assessing devices.
 
