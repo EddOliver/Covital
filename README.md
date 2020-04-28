@@ -56,67 +56,69 @@ When we have several of these devices, we will be able to perform better analyti
 
 # Inspiration and Introduction
 
-Pandemias ha habido muchas a lo largo de la historia, en años recientes tal vez las que mas podamos recordar fueron las enfermedades como la gripe porcina AH1N1 (2009), el SARS (2002), el ébola (2014), el MERS (coronavirus, 2015) y ahora el Covid-19.
+There have been many pandemics throughout history, in recent years perhaps the ones we can remember the most were diseases such as swine flu AH1N1 (2009), SARS (2002), Ebola (2014), MERS (coronavirus, 2015) and now the Covid-19.
 
-Sin embargo, nunca tuvimos que vivir en estado de cuarentena global, nunca pensamos que sería tan veloz la instalación de la enfermedad en el mundo. En la actualidad, hay paises que incluso han generado politicas para el uso de armas de fuego contra la gente que no haga cuarentena, en muchos otros solo se promueve el aislamiento y el distanciamiento social como en mexico.
+However, we never had to live in a state of global quarantine, we never thought that the installation of the disease in the world would be so fast. Currently, there are countries that have even generated policies for the use of firearms against people who do not quarantine, in many others only isolation and social distancing are promoted, as in Mexico.
 
-Sin embargo a pesar de las constantes peticiones de Hugo López-Gatell Ramírez, assistant secretary of Prevention and Health Promotion, de quedarse en casa y no salir, no han sido suficientes para evitar el crecimiento acelerado de los casos de Covid-19 en mexico.
+However, despite the constant requests from Hugo López-Gatell Ramírez, assistant secretary of Prevention and Health Promotion, to stay home and not leave, they have not been enough to prevent the accelerated growth of Covid-19 cases in Mexico.
 
 <img src="https://i.ibb.co/Qm6Xxcx/stay.png" width="1000">
 
-En redes sociales sobre todo podemos encontrar casos como estos:
+In social networks we can find cases such as these:
 
-- Gente realizando manualmente face masks sin saber su efectividad:
+- People manually making face masks without knowing their effectiveness:
 <img src="https://i.ibb.co/H74qCGp/download-1.jpg" width="1000">
 
-- Personas que a pesar de la cuarentena van a comprar su pescado al mercado (alarmantemente desde el inicio de la pandemia este mercado en mexico ha tenido un aumento de clientes):
+- People who despite the quarantine will buy their fish from the market (alarmingly, since the start of the pandemic, this market in Mexico has had an increase in customers):
 <img src="https://i.ibb.co/jZrcRSW/Mercado-de-La-Viga-1.jpg" width="1000">
 
-- Gente realizando compras masivas de papel higienico:
+- People Massively buying toilet paper:
 <img src="https://i.ibb.co/P1R0rdn/skynews-covid-19-coronavirus-4952333.jpg" width="1000">
 
-- Y claro, gente realizando saqueos masivos de supermercados desde alimentos hasta electrodomesticos:
+- And of course, people carrying out massive looting of supermarkets from food to appliances:
 <img src="https://i.ibb.co/XS6z0F5/unnamed.jpg" width="1000">
 
-Desde este momento fue claro que uno de los principales problemas de Mexico ante el coronavirus fue la falta de informacion.
+From this moment it was clear that one of the main problems of Mexico regarding the coronavirus was the lack of information.
 
-Para confirmar nuestra teoria decidimos realizar una encuesta de (insertar numero de personas de la encuesta) donde encontramos que el (insertar porcentaje) menciona que esta sufriendo una fuerte desinformacion sobre el coronavirus y como evitarlo, aunado a esto que no sabian donde encontrar fuentes fidedignas de informacion, por lo tanto concluimos lo siguiente:
+To confirm our theory, we decided to carry out a survey of (insert number of people from the survey) where we found that the (insert percentage) mentions that it is suffering from strong disinformation about the coronavirus and how to avoid it, in addition to this, that they did not know where to find reliable sources of information, therefore we conclude the following:
 
-- Las personas no saben donde consultar directamente informacion real sobre prevencion.
-- Las personas comparten mucha informacion falsa por redes sociales, generalmente conpiraciones politicas.
-- La mayoria de la gente no tiene una fuente real de los datos estadisticos del Covid-19, mayormente consultando varias fuentes para obetener los datos o directamente esperando diariamente a la hora de los noticieros en la television para oirlos.
+- People do not know where to directly consult real information on prevention.
+- People share a lot of false information on social networks, generally political conspiracies.
+- Most people do not have a real source of Covid-19 statistical data, mostly consulting various sources to get the data or directly waiting daily for television newscasts to hear them.
 
 <img src="https://i.ibb.co/r4ZRknx/image.png" width="300">
 
-La conclusion es que mexico necesita una plataforma que integre todos los puntos antes mencionados, generando una plataforma no solo de datos, sino de informacion importante de prevencion, sintomas, que hacer si te enfermas, etc.
+The conclusion is that Mexico needs a platform that integrates all the aforementioned points, generating a platform not only for data, but also for important prevention information, symptoms, what to do if you get sick, etc.
+
+Apart from that there's the problem of overworked Medical professionals as they are the population that will be most at risk and we need them. (1)
 
 # Solution 
 
-Creamos una plataforma que tiene 5 funciones principales:
+We create a platform that has 5 main functions:
 
-- Realizar un mapa de calor donde podemos observar de forma visual y cuantitativa los casos  positivos de COVID-19 en mexico por cada estado.
+- Make a heat map where we can visually and quantitatively observe the positive cases of COVID-19 in Mexico by each state.
 
 <img src="https://i.ibb.co/v1h6sMK/image.png" width="1000">
 
-- Proveer informacion relevante para las personas como lo es:
-  - Correcto lavado de manos
-  - Cubrebocas: Tipos y uso correcto
-  - Fases y medidas preventivas en una pandemia
-  - Sintomas del Covid-19
-  - Que hacer si se sispecha de que se tienen los sintomas
-  - Fuentes oficiales para consultar informacion de calidad.
+- Provide relevant information for people such as:
+   - Correct hand washing
+   - Mouthguards: Types and correct use
+   - Phases and preventive measures in a pandemic
+   - Symptoms of Covid-19
+   - What to do if symptoms are suspected.
+   - And offer Official sources to consult quality information.
   
   <img src="https://i.ibb.co/zfNVNzV/image.png" width="1000">
   
-- Sensado cuantitativo de la positividad del pais en general mediante el analisis en tiempo real de los tweets en todo el pais.
+- Quantitative sensing of the positivity of the country in general by means of the analysis in real time of tweets throughout the country.
 
   <img src="https://i.ibb.co/FbMqYRC/tweet-anal.png" width="1000">
 
-- Seccion de noticias con las ultimas noticias veridicas
+- News section with the latest "true" or real news
 
   <img src="https://i.ibb.co/Kyk5kYw/image.png" width="1000">
 
-- Seccion de noticias falsas donde se podamos mostrarle a la gente que es verdad y que no.
+- Fake news section where we can show people what is true and what is not.
 
   <img src="https://i.ibb.co/q54zLVg/image.png" width="1000">
 
@@ -126,21 +128,21 @@ Creamos una plataforma que tiene 5 funciones principales:
 
 # Toolchain and Cloudfoundry app:
 
-Dentro de la consola de IBM creamos una Toolchain cual nos permitiera desplegar una cloudfoundry app dentro de la cloud de ibm y a su vez nos permitiera llevar un control de versiones mediante git.
+Within the IBM console we created a Toolchain which would allow us to deploy a cloudfoundry app within the ibm cloud and in turn would allow us to control versions using git.
 
 <img src="https://i.ibb.co/FxDDN1Y/image.png" width="1000">
 
-Todo el desarrollo de la pagina se realizo mediante el framework Reactjs y se actualizaba mediante git en linea de comandos a IBM.
+All the development of the page was carried out using the Reactjs framework and was updated via command line git to IBM.
 
 <img src="https://i.ibb.co/qJSnQH5/image.png" width="1000">
 
 # API Gateway:
 
-Toda la integracion de servicios de la pagina web se realizo a travez de los servicios de API gateway para la peticion de datos de la pagina.
+All the integration of services of the web page was done through the API gateway services for requesting data from the page.
 
 <img src="https://i.ibb.co/PNYqnWB/image.png" width="1000">
 
-Cada una de las peticiones de a la api esta asociado a una action programada en NodeJs o Python.La llamada a la API esta protegida mediante una clave X-IBM-Client-Id.
+Each of the api requests is associated with an action programmed in NodeJs or Python. The API call is protected by an X-IBM-Client-Id key.
 
 API Paths:
 <img src="https://i.ibb.co/9b4Lgqv/image.png" width="1000">
@@ -154,19 +156,19 @@ API Mexico data request and processing:
 
 # Cloud Object Storage:
 
-Todos los documentos de la pagina como imagenes, iconos, etc... Fueron almacenados en un bucket COS configurado para tener datos archivos publicos.
+All documents on the page such as images, icons, etc ... They were stored in a COS bucket configured to have data public files.
 
 <img src="https://i.ibb.co/5nL7C82/image.png" width="1000">
 
 # Twitter Analysis:
 
-Para hacer el analisis de tweeter se utilizo la libreria Tweepy, para capturar todos los Twweets en tiempo real de mexico y analizarlos uno a uno con el servicio Tone Analyzer.
+To make the tweeter analysis, the Tweepy library was used to capture all the Twweets in real time from Mexico and analyze them one by one with the Tone Analyzer service.
 
-Nota: El servicio de Tone Analyzer funciona con texto en ingles, asi que usamos una api de traduccion de texto Español a ingles como proprocesamiento.
+Note: The Tone Analyzer service works with English text, so we use a Spanish to English text translation api as a process.
 
 <img src="https://i.ibb.co/hMmczNx/image.png" width="1000">
 
-Este servicio esta corriendo en periodos de tiempo sobre Watson Studio en una Jupyter Notebook, cada que se analizan 100 tweets el algoritmo actualiza el arhivo json con los niveles de positividad guardado de COS.
+This service is running in periods of time on Watson Studio in a Jupyter Notebook, each time 100 tweets are analyzed, the algorithm updates the json file with COS saved levels of positivity.
 
 <img src="https://i.ibb.co/m6scxBS/image.png" width="1000">
 
