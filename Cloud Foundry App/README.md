@@ -42,17 +42,6 @@ Our website has the following elements:
 
 <img src="https://i.ibb.co/vcJhDHZ/image.png" width="1000">
 
-- En esta seccion tenemos una casilla de información donde mostramos los siguiente topicos como informacion general para la gente, los datos de esta seccion son llamados por API desde API Gateway:
-
-  - Correcto lavado de manos
-  - Cubrebocas: Tipos y uso correcto
-  - Fases y medidas preventivas durante una pandemia
-  - Sintomas
-  - ¿Que hacer si sospechas que tienes COVID-19?
-  - Fuentes Oficiales
-
-<img src="https://i.ibb.co/vxkCRTS/image.png" width="1000">
-
 - In this section we have an information box where we show the following topics as general information for people, the data in this section is called by API from API Gateway:
 
 Correct hand washing
@@ -60,7 +49,9 @@ Mouthguards: Types and correct use
 Phases and preventive measures during a pandemic
 Symptoms
 What to do if you suspect you have COVID-19?
-Official sources
+Official sources.
+
+<img src="https://i.ibb.co/vxkCRTS/image.png" width="1000">
 
 - In this section we have an analysis of the positivity of each of the states, real-time processing of tweets made by people and analyzing them using the IBM resource called Tone Analyzer, this process will be explained in detail in the section "Twitter - Watson ", the data in this section is called by API from API Gateway:
 
