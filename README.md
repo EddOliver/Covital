@@ -1,10 +1,10 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [<img src="https://img.shields.io/badge/View-Website-blue">](https://main.covital.com.mx) [<img src="https://img.shields.io/badge/View-Video-red">](https://youtu.be/ZrKRTGuA2X4)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [<img src="https://img.shields.io/badge/View-Website-blue">](https://main.covital.com.mx/english) [<img src="https://img.shields.io/badge/View-Video-red">](https://youtu.be/ZrKRTGuA2X4)
 
 <img src="https://i.ibb.co/ZzmpyX1/COVITAL.png" width="600">
 
 ### COVID19 information aggregator and data platform for Mexico, includes IoT risk assessing devices for medical professionals.
 
-#### Webpage: https://main.covital.com.mx/
+#### Webpage: https://main.covital.com.mx/english
 #### Video: https://youtu.be/ZrKRTGuA2X4
 
 # Solution summary
