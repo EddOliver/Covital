@@ -2,6 +2,9 @@
 
 ### COVID19 information aggregator and data platform for Mexico, includes IoT risk assessing devices for medical professionals.
 
+#### Webpage: https://main.covital.com.mx/
+#### Video: https://youtu.be/ZrKRTGuA2X4
+
 # Solution summary
 
 <img src="https://i.ibb.co/rZGghY2/diagrama.png">
