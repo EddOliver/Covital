@@ -1,8 +1,6 @@
-# Covital
+<img src="https://i.ibb.co/NW6Rmrk/desklogo.png" width="500">
 
 COVID19 information aggregator and data platform for Mexico, includes IoT risk assessing devices.
-
-<img src="https://i.ibb.co/NW6Rmrk/desklogo.png" width="1000">
 
 # Inspiration and Introduction
 
