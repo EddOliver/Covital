@@ -176,3 +176,21 @@ Este servicio esta corriendo en periodos de tiempo sobre Watson Studio en una Ju
 # References
 
 1. https://www.theverge.com/2020/3/5/21166088/coronavirus-covid-19-protection-doctors-nurses-health-workers-risk
+
+2. https://weather.com/health/cold-flu/news/2020-01-09-17-things-you-probably-didnt-know-about-the-flu
+
+3. Elert, E. 2013. FYI: Why is There a Winter Flu Season? Popular Science. <http://www.popsci.com/science/article/2013-01/fyi-why-winter-flu-season> [2 November, 2014]
+
+4. https://www.nih.gov/news-events/nih-research-matters/flu-virus-fortified-colder-weather
+
+5. http://sitn.hms.harvard.edu/flash/2014/the-reason-for-the-season-why-flu-strikes-in-winter/
+
+6. https://medicalfuturist.com/ten-ways-technology-changing-healthcare/?utm_source=The%20Medical%20Futurist%20Newsletter&utm_campaign=ee5854702c-EMAIL_CAMPAIGN_2019_10_29_diabetes_companies_COPY_&utm_medium=email&utm_term=0_efd6a3cd08-ee5854702c-420575081
+
+7. https://www.onsemi.com/pub/Collateral/EVBUM2614-D.PDF
+
+8. https://www.onsemi.com/products/connectivity/wireless-rf-transceivers/rsl10
+
+9. https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0206808
+
+10. https://weather.com/health/cold-flu/news/2020-02-14-worst-flu-season-for-children-in-a-decade
