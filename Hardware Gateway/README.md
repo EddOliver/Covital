@@ -152,5 +152,7 @@ First, we will install the necessary libraries for our program to work.
 
 ## NodeRed Configuration:
 
-TU CULO.......digo tu parte XP
+I Remmit you to this guide:
+
+https://github.com/EddOliver/AggroFox/tree/master/IBM%20cloud%20AggroFox
 
