@@ -1,6 +1,6 @@
 # Hardware Gateway:
 
-Para nuestro dispositivo de cuidado de personal de salud IoT utilizamos una smart watch MiBand3 de Xiaomi para revisar el pulso y los pasos recorridos, utilizamos una Raspberry Pi Zero W como gateway para mandar los datos a IBM Internet of Things Platform
+For our IoT health care device we use a Xiaomi MiBand3 smart watch to check the pulse and the steps taken, we use a Raspberry Pi Zero W as a gateway to send the data to the IBM Internet of Things Platform
 
 <img src="https://i.ibb.co/YXrZxyB/image.png" width="1000">
 
@@ -8,35 +8,35 @@ Para nuestro dispositivo de cuidado de personal de salud IoT utilizamos una smar
 
 ### Configure your device:
 
-En nuestra plataforma de IBM Cloud creamos el siguiente recurso:
+On our IBM Cloud platform we create the following resource:
 
 <img src="https://i.ibb.co/SmvQ7rf/image.png" width="1000">
 
-Dentro de este recurso crearemos un nuevo device en el botón mostrado a continuación:
+Within this resource we will create a new device in the button shown below:
 
 <img src="https://i.ibb.co/NL3WZbX/image.png" width="1000">
 
-Para este ejemplo solo necesitamos que guardes el "Device Type" y el "Device ID".
+For this example we just need to save the "Device Type" and the "Device ID".
 
 <img src="https://i.ibb.co/PzQ2KCZ/image.png" width="1000">
 
-Termina de crear el device presionando el boton de Next y Finish (No te preocupes por las credenciales del device, para este ejemplo no las vamos a utilizar).
+Finish creating the device by pressing the Next and Finish button (Do not worry about the device credentials, for this example we will not use them).
 
-### Configure you App (Raspberry) Credential:
+### Configure your App (Raspberry) Credential:
 
-Tenemos que crear una credencial de aplicacion, para ello nos vamos al siguiente de Apps y presionamos el siguiente boton:
+We have to create an application credential, for this we go to the next one of Apps and press the following button:
 
 <img src="https://i.ibb.co/gR9Rf36/image.png" width="1000">
 
-Crea la app poniendo una descripcion en ella y presionando "Next":
+Create the app by putting a description in it and pressing "Next":
 
 <img src="https://i.ibb.co/hWKhgQg/image.png" width="1000">
 
-Para evitar problemas de compatibilidad la configuraremos como se muestra a continuacion:
+To avoid compatibility problems, we will configure it as shown below:
 
 <img src="https://i.ibb.co/Mn4w6TK/image.png" width="1000">
 
-Guarda los siguientes 3 valores para configurar correctamente la gateway:
+Save the following 3 values to correctly configure the gateway:
 
 <img src="https://i.ibb.co/JBKsKYc/image.png" width="1000">
 
@@ -110,19 +110,19 @@ First, we will install the necessary libraries for our program to work.
       sudo apt-get install python3-pip libglib2.0-dev git -y
       sudo pip3 install bluepy Crypto crc16 paho-mqtt
 
-- Ahora descarga la carpeta con nuestro programa.
+- Download the folder with our program
 
        git clone https://github.com/EddOliver/Covital
 
-- Entramos a la carpeta Covital/RpiScript
+- Enter the Covital/RpiScript folder.
 
       cd Covital/RpiScript
 
-- Tendremos que configurar las credenciales de IBM IoT Platform en nuestro programa main.py, asi que abrimos el editor de la Rpi Zero con el siguiente comando.
+- We will have to configure the IBM IoT Platform credentials in our main.py program, so we open the editor of the Rpi Zero with the following command.
 
       sudo nano main.py
 
-- Cambia los siguientes valores pos los tuyos en el inicio del codigo:
+- Change the following values ​​for yours at the beginning of the code:
 
       ORG = "XXXXXX"                   # YOUR ORG ID      
       myauth="X-XXXXXX-XXXXXXXXXX"     # API key 
@@ -130,23 +130,23 @@ First, we will install the necessary libraries for our program to work.
       mydevice="YourDeviceName"        # Your Device Name
       mydeviceid="YourDeviceId"        # Your Device ID
 
-- Para guardar los cambios en el editor presiona el comando "ctrl+o", Enter y luego "ctrl+x", enter
+- To save the changes in the editor press the command "ctrl + o", Enter and then "ctrl + x", enter
 
-- el siguiente paso es buscar la dirección MAC de nuestra MiBand3 con el siguiente comando, guardala.
+- The next step is to find the MAC address of our MiBand3 with the following command, save it.
 
       sudo hcitool lescan
 
 <img src="https://i.ibb.co/1MfbWmZ/image.png" width="1000">
 
-- Para activar el codigo ejectuta el siguiente comando:
+- To activate the code, execute the following command:
 
       sudo python3 main.py YOURMAC
 
-- Si todo funciona correctamente veras lo siguiente:
+- If everything works correctly you will see the following:
 
 <img src="https://i.ibb.co/cNjC3ry/image.png" width="1000">
 
-- Una vez tenemos todo conectado, vamos a probar que todo este funcionando correctamente mandando algunos comandos.
+- Once we have everything connected, we are going to test that everything is working correctly by sending some commands.
 
 <img src="https://i.ibb.co/3NV8jcw/ezgif-com-video-to-gif-2.gif" width="1000">
 
