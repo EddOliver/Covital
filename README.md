@@ -6,6 +6,14 @@ COVID19 information aggregator and data platform for Mexico, includes IoT risk a
 
 <img src="https://i.ibb.co/rZGghY2/diagrama.png">
 
+COVITAL's solutions consists of:
+
+1. An information aggregator (https://main.covital.com.mx/) that includes:
+   - Map by state that shows the number of cases in an easy manner and a graph that shows the growth of that.
+   - Instructions and links regarding self-care during the pandemic
+   - A machine learning Powered Emotional Positivity Map
+   - A service that separates the real news from the fake news.
+
 
 
 # Our commitment
