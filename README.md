@@ -35,7 +35,9 @@ When we have several of these devices, we will be able to perform better analyti
 #### 3 Biomedical Engineers with experience developing IoT and hardware solutions.
 
 https://www.linkedin.com/in/luis-eduardo-arevalo-oliver-989703122/
+
 https://www.linkedin.com/in/alejandro-s%C3%A1nchez-guti%C3%A9rrez-11105a157/
+
 https://www.linkedin.com/in/victor-alonso-altamirano-izquierdo-311437137/
 
 
