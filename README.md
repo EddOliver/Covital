@@ -6,17 +6,18 @@
 
 <img src="https://i.ibb.co/rZGghY2/diagrama.png">
 
-COVITAL's solutions consists of:
+#### COVITAL's solutions consist of:
 
-1. An information aggregator (https://main.covital.com.mx/) that includes:
+#### 1. An information aggregator (https://main.covital.com.mx/) that includes:
    - Map by state that shows the number of cases in an easy manner and a graph that shows the growth of that.
    - Instructions and links regarding self-care during the pandemic
    - A machine learning Powered Emotional Positivity Map
    - A service that separates the real news from the fake news.
    
+It is an IBM cloud foundry application that makes use of several of IBM’s cloud toolchains and other services, and we do ML, but we’ll get to that. The intention of this aggregator is to become a source in which you can be informed of everything regarding COVID19 for the day in less than 5 minutes and in a very simple way.
 
    
-2. An IoT Risk assesing platform for Medical Professionals that include two main devices:
+#### 2. An IoT Risk assesing platform for Medical Professionals that include two main devices:
 
    - Heart Rate and Step tracking band with Gateway [Link]()
    - Clothing embedded device that tracks Temperature, Air quality, Movement, Pressure and more.
