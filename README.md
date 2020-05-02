@@ -6,6 +6,7 @@
 
 #### Webpage: https://main.covital.com.mx/english
 #### Video: https://youtu.be/ZrKRTGuA2X4
+#### 13,201 views in 2 weeks!
 
 # Solution summary
 
