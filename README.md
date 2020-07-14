@@ -2,7 +2,7 @@
 
 <img src="https://i.ibb.co/ZzmpyX1/COVITAL.png" width="600">
 
-### COVID19 information aggregator and data platform for Mexico, includes IoT risk assessing devices for medical professionals.
+### Contact Tracing platform with patient centric risk-assessing IoT devices.
 
 #### Webpage: https://main.covital.com.mx/english
 #### Video: https://youtu.be/ZrKRTGuA2X4
