@@ -5,6 +5,7 @@
 ### Contact Tracing platform with patient centric risk-assessing IoT devices.
 
 #### Webpage: https://main.covital.com.mx/english
+#### IoT Platform: https://iot.covital.com.mx/
 #### Video: https://youtu.be/ZrKRTGuA2X4
 ## 16,351 views in 2 weeks!
 
