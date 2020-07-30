@@ -2,7 +2,7 @@
 
 <img src="https://i.ibb.co/ZzmpyX1/COVITAL.png" width="600">
 
-### Contact Tracing platform with patient centric risk-assessing IoT devices.
+### Contact Tracing platform that employs patient centric risk-assessing IoT devices.
 
 #### Webpage: https://main.covital.com.mx/english
 #### IoT Platform: https://iot.covital.com.mx/
