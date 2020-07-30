@@ -101,7 +101,7 @@ We created a platform that has 5 main functions:
 
 - Show a heat map where we can visually and quantitatively observe the positive cases of COVID-19 in Mexico by each state.
 
-<img src="https://i.ibb.co/v1h6sMK/image.png" width="1000">
+<img src="https://i.ibb.co/v1h6sMK/image.png" width="600">
 
 - Provide relevant information for people such as:
    - Correct hand washing
@@ -111,19 +111,19 @@ We created a platform that has 5 main functions:
    - What to do if symptoms are suspected.
    - And offer Official sources to consult quality information.
   
-  <img src="https://i.ibb.co/zfNVNzV/image.png" width="1000">
+  <img src="https://i.ibb.co/zfNVNzV/image.png" width="600">
   
 - Quantitative sensing of the positivity of the country in general by means of the analysis in real time of tweets throughout the country.
 
-  <img src="https://i.ibb.co/FbMqYRC/tweet-anal.png" width="1000">
+  <img src="https://i.ibb.co/FbMqYRC/tweet-anal.png" width="600">
 
 - News section with the latest "true" or real news
 
-  <img src="https://i.ibb.co/Kyk5kYw/image.png" width="1000">
+  <img src="https://i.ibb.co/Kyk5kYw/image.png" width="600">
 
 - Fake news section where we can show people what is true and what is not.
 
-  <img src="https://i.ibb.co/q54zLVg/image.png" width="1000">
+  <img src="https://i.ibb.co/q54zLVg/image.png" width="600">
 
 # How we built it
 
