@@ -6,8 +6,9 @@
 
 #### Webpage: https://main.covital.com.mx/english
 #### IoT Platform: https://iot.covital.com.mx/
-#### Video: https://youtu.be/ZrKRTGuA2X4
-## 16,351 views in 2 weeks!
+#### Video: https://youtu.be/T5ew0W7RWNM
+#### Long Video: https://www.youtube.com/watch?v=mdn2lJ8OhO8&feature=youtu.be
+## 50,351 views in 6 weeks!
 
 # Solution summary
 
@@ -64,21 +65,21 @@ However, we never had to live in a state of global quarantine, we never thought 
 
 However, despite the constant requests from Hugo López-Gatell Ramírez, assistant secretary of Prevention and Health Promotion, to stay home and not leave, they have not been enough to prevent the accelerated growth of Covid-19 cases in Mexico.
 
-<img src="https://i.ibb.co/Qm6Xxcx/stay.png" width="1000">
+<img src="https://i.ibb.co/Qm6Xxcx/stay.png" width="400">
 
 In social networks we can find cases such as these:
 
 - People manually making face masks without knowing their effectiveness:
-<img src="https://i.ibb.co/H74qCGp/download-1.jpg" width="1000">
+<img src="https://i.ibb.co/H74qCGp/download-1.jpg" width="400">
 
 - People who despite the quarantine will buy their fish from the market (alarmingly, since the start of the pandemic, this market in Mexico has had an increase in customers):
-<img src="https://i.ibb.co/jZrcRSW/Mercado-de-La-Viga-1.jpg" width="1000">
+<img src="https://i.ibb.co/jZrcRSW/Mercado-de-La-Viga-1.jpg" width="400">
 
 - People Massively buying toilet paper:
-<img src="https://i.ibb.co/P1R0rdn/skynews-covid-19-coronavirus-4952333.jpg" width="1000">
+<img src="https://i.ibb.co/P1R0rdn/skynews-covid-19-coronavirus-4952333.jpg" width="400">
 
 - And of course, people carrying out massive looting of supermarkets from food to appliances:
-<img src="https://i.ibb.co/XS6z0F5/unnamed.jpg" width="1000">
+<img src="https://i.ibb.co/XS6z0F5/unnamed.jpg" width="400">
 
 From this moment it was clear that one of the main problems of Mexico regarding the coronavirus was the lack of information.
 
