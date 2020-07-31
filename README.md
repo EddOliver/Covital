@@ -189,9 +189,6 @@ This service is running in periods of time on Watson Studio in a Jupyter Noteboo
 
 <img src="https://i.ibb.co/m6scxBS/image.png" width="1000">
 
-# Views Report 04/27/2020
-
-<img src="https://i.ibb.co/sVhqMJG/Screen-Shot-2020-04-27-at-16-48-44.png" width="1000">
 
 
 # References
