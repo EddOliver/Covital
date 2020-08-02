@@ -14,6 +14,8 @@
 
 <img src="https://i.ibb.co/rZGghY2/diagrama.png">
 
+[How we built it](https://github.com/EddOliver/Covital/blob/master/README.md#how-we-built-it)
+
 #### COVITAL's solutions consist of:
 
 #### 1. An information aggregator (https://main.covital.com.mx/) that includes:
@@ -129,17 +131,17 @@ We created a platform that has 5 main functions:
 
 #### We have step by step instructions for everything created:
 
-###[API Gateway](https://github.com/EddOliver/Covital/tree/master/Api%20Gateway)
+[API Gateway](https://github.com/EddOliver/Covital/tree/master/Api%20Gateway)
 
-###[Cloud Foundry app](https://github.com/EddOliver/Covital/tree/master/Cloud%20Foundry%20App)
+[Cloud Foundry app](https://github.com/EddOliver/Covital/tree/master/Cloud%20Foundry%20App)
 
-###[Hardware Gateway](https://github.com/EddOliver/Covital/tree/master/Hardware%20Gateway)
+[Hardware Gateway](https://github.com/EddOliver/Covital/tree/master/Hardware%20Gateway)
 
-###[Twitter sentiment analysis](https://github.com/EddOliver/Covital/tree/master/Twitter%20-%20Watson)
+[Twitter sentiment analysis](https://github.com/EddOliver/Covital/tree/master/Twitter%20-%20Watson)
 
-###[3D printed parts](https://github.com/EddOliver/Covital/tree/master/3D%20printed%20parts)
+[3D printed parts](https://github.com/EddOliver/Covital/tree/master/3D%20printed%20parts)
 
-###[Node RED for the Clothing embedded device](https://github.com/EddOliver/Covital/tree/master/Node%20RED%20flow)
+[Node RED for the Clothing embedded device](https://github.com/EddOliver/Covital/tree/master/Node%20RED%20flow)
 
 <img src="https://i.ibb.co/Pr7gPcc/Diagrama.png" width="1000">
 
