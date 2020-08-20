@@ -6,6 +6,9 @@
 
 #### Webpage: https://main.covital.com.mx/english
 #### IoT Platform: https://iot.covital.com.mx/
+User: Dr.GregoryHouse@gmail.com
+PW: toor
+
 #### Video: https://youtu.be/T5ew0W7RWNM
 #### Long Video: https://www.youtube.com/watch?v=mdn2lJ8OhO8&feature=youtu.be
 ## 50,351 views in 6 weeks!
