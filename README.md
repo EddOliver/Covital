@@ -1,17 +1,23 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [<img src="https://img.shields.io/badge/View-Website-blue">](https://main.covital.com.mx/english) [<img src="https://img.shields.io/badge/View-Video-red">](https://youtu.be/ZrKRTGuA2X4)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [<img src="https://img.shields.io/badge/View-Website-blue">](https://main.covital.com.mx/english) [<img src="https://img.shields.io/badge/View-Video-red">](https://youtu.be/T5ew0W7RWNM)
 
 <img src="https://i.ibb.co/ZzmpyX1/COVITAL.png" width="600">
 
-### Contact Tracing platform with patient centric risk-assessing IoT devices.
+### Contact Tracing platform that employs patient centric risk-assessing IoT devices.
 
 #### Webpage: https://main.covital.com.mx/english
 #### IoT Platform: https://iot.covital.com.mx/
-#### Video: https://youtu.be/ZrKRTGuA2X4
-## 16,351 views in 2 weeks!
+User: DrGregoryHouse@gmail.com
+PW: toor
+
+#### Video: https://youtu.be/T5ew0W7RWNM
+#### Long Video: https://www.youtube.com/watch?v=mdn2lJ8OhO8&feature=youtu.be
+## 50,351 views in 6 weeks!
 
 # Solution summary
 
 <img src="https://i.ibb.co/rZGghY2/diagrama.png">
+
+[How we built it](https://github.com/EddOliver/Covital/blob/master/README.md#how-we-built-it)
 
 #### COVITAL's solutions consist of:
 
@@ -33,6 +39,14 @@ The IoT part of Our solution tracks, analyses and gives recommendations to Medic
 These kinds of measures have shown to decrease considerably the risk of these professionals. (1)
  
 When we have several of these devices, we will be able to perform better analytics and even ML models, which we will incorporate into the main platform and the Emotions and Positivity map. This solution has the potential of incorporating the whole gambit of information about the current pandemic and will help us prepare for the future one. This of course employing IBM’s cloud technology, IoT and Machine Learning like it was never done before. And it might help as a model for developing countries to fight pandemics.
+
+# Updates from August
+
+----IoT platform
+----Airtable integration
+
+----Traction
+
 
 # Team
 
@@ -64,21 +78,21 @@ However, we never had to live in a state of global quarantine, we never thought 
 
 However, despite the constant requests from Hugo López-Gatell Ramírez, assistant secretary of Prevention and Health Promotion, to stay home and not leave, they have not been enough to prevent the accelerated growth of Covid-19 cases in Mexico.
 
-<img src="https://i.ibb.co/Qm6Xxcx/stay.png" width="1000">
+<img src="https://i.ibb.co/Qm6Xxcx/stay.png" width="400">
 
 In social networks we can find cases such as these:
 
 - People manually making face masks without knowing their effectiveness:
-<img src="https://i.ibb.co/H74qCGp/download-1.jpg" width="1000">
+<img src="https://i.ibb.co/H74qCGp/download-1.jpg" width="400">
 
 - People who despite the quarantine will buy their fish from the market (alarmingly, since the start of the pandemic, this market in Mexico has had an increase in customers):
-<img src="https://i.ibb.co/jZrcRSW/Mercado-de-La-Viga-1.jpg" width="1000">
+<img src="https://i.ibb.co/jZrcRSW/Mercado-de-La-Viga-1.jpg" width="400">
 
 - People Massively buying toilet paper:
-<img src="https://i.ibb.co/P1R0rdn/skynews-covid-19-coronavirus-4952333.jpg" width="1000">
+<img src="https://i.ibb.co/P1R0rdn/skynews-covid-19-coronavirus-4952333.jpg" width="400">
 
 - And of course, people carrying out massive looting of supermarkets from food to appliances:
-<img src="https://i.ibb.co/XS6z0F5/unnamed.jpg" width="1000">
+<img src="https://i.ibb.co/XS6z0F5/unnamed.jpg" width="400">
 
 From this moment it was clear that one of the main problems of Mexico regarding the coronavirus was the lack of information.
 
@@ -100,7 +114,7 @@ We created a platform that has 5 main functions:
 
 - Show a heat map where we can visually and quantitatively observe the positive cases of COVID-19 in Mexico by each state.
 
-<img src="https://i.ibb.co/v1h6sMK/image.png" width="1000">
+<img src="https://i.ibb.co/v1h6sMK/image.png" width="600">
 
 - Provide relevant information for people such as:
    - Correct hand washing
@@ -110,19 +124,19 @@ We created a platform that has 5 main functions:
    - What to do if symptoms are suspected.
    - And offer Official sources to consult quality information.
   
-  <img src="https://i.ibb.co/zfNVNzV/image.png" width="1000">
+  <img src="https://i.ibb.co/zfNVNzV/image.png" width="600">
   
 - Quantitative sensing of the positivity of the country in general by means of the analysis in real time of tweets throughout the country.
 
-  <img src="https://i.ibb.co/FbMqYRC/tweet-anal.png" width="1000">
+  <img src="https://i.ibb.co/FbMqYRC/tweet-anal.png" width="600">
 
 - News section with the latest "true" or real news
 
-  <img src="https://i.ibb.co/Kyk5kYw/image.png" width="1000">
+  <img src="https://i.ibb.co/Kyk5kYw/image.png" width="600">
 
 - Fake news section where we can show people what is true and what is not.
 
-  <img src="https://i.ibb.co/q54zLVg/image.png" width="1000">
+  <img src="https://i.ibb.co/q54zLVg/image.png" width="600">
 
 # How we built it
 
@@ -188,9 +202,6 @@ This service is running in periods of time on Watson Studio in a Jupyter Noteboo
 
 <img src="https://i.ibb.co/m6scxBS/image.png" width="1000">
 
-# Views Report 04/27/2020
-
-<img src="https://i.ibb.co/sVhqMJG/Screen-Shot-2020-04-27-at-16-48-44.png" width="1000">
 
 
 # References
