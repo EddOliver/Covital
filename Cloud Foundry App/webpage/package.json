@@ -19,7 +19,7 @@
     "fs": "0.0.1-security",
     "lodash": "^4.17.21",
     "lodash.isfunction": "^3.0.9",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "react": "^16.13.1",
     "react-chartjs-2": "^2.9.0",
     "react-chartjs-3": "^2.7.7",
